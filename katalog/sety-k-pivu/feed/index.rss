@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Сеты к пиву &#8212; Sutime</title>
+	<atom:link href="http://sutime.ru/katalog/sety-k-pivu/feed/" rel="self" type="application/rss+xml" />
+	<link>http://sutime.ru</link>
+	<description>Доставка пиццы, суши и закусок в Воронеже</description>
+	<lastBuildDate>Thu, 09 May 2019 13:11:37 +0000</lastBuildDate>
+	<language>ru-RU</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	
+	<item>
+		<title>Сет №5</title>
+		<link>http://sutime.ru/katalog/sety-k-pivu/set-no-5/</link>
+		<comments>http://sutime.ru/katalog/sety-k-pivu/set-no-5/#respond</comments>
+		<pubDate>Wed, 05 Jul 2017 14:08:40 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Сеты к пиву]]></category>
+
+		<guid isPermaLink="false">http://sutime.ru/?p=295</guid>
+		<description><![CDATA[(наггетсы куриные &#8212; 5 шт., ребра свиные, картофель фри &#8212; 120 гр.)]]></description>
+				<content:encoded><![CDATA[<p>(наггетсы куриные &#8212; 5 шт., ребра свиные, картофель фри &#8212; 120 гр.)</p>
+]]></content:encoded>
+			<wfw:commentRss>http://sutime.ru/katalog/sety-k-pivu/set-no-5/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

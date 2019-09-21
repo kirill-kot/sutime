@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Сложные Роллы &#8212; Sutime</title>
+	<atom:link href="http://sutime.ru/katalog/sushi-i-roly/rolly/feed/" rel="self" type="application/rss+xml" />
+	<link>http://sutime.ru</link>
+	<description>Доставка пиццы, суши и закусок в Воронеже</description>
+	<lastBuildDate>Thu, 09 May 2019 13:11:37 +0000</lastBuildDate>
+	<language>ru-RU</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	
+	<item>
+		<title>Ролл Канадский</title>
+		<link>http://sutime.ru/katalog/roll-kanadskij/</link>
+		<comments>http://sutime.ru/katalog/roll-kanadskij/#respond</comments>
+		<pubDate>Mon, 10 Jul 2017 22:40:38 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Сложные Роллы]]></category>
+
+		<guid isPermaLink="false">http://sutime.ru/?p=567</guid>
+		<description><![CDATA[Рис, нори, краб, огурец, сыр Филадельфия, угорь, икра тобико, кунжут. 225 гр.]]></description>
+				<content:encoded><![CDATA[<p>Рис, нори, краб, огурец, сыр Филадельфия, угорь, икра тобико, кунжут. 225 гр.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://sutime.ru/katalog/roll-kanadskij/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Запеченные роллы &#8212; Sutime</title>
+	<atom:link href="http://sutime.ru/katalog/sushi-i-roly/rolly/zapechennye-rolly/feed/" rel="self" type="application/rss+xml" />
+	<link>http://sutime.ru</link>
+	<description>Доставка пиццы, суши и закусок в Воронеже</description>
+	<lastBuildDate>Thu, 09 May 2019 13:11:37 +0000</lastBuildDate>
+	<language>ru-RU</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	
+	<item>
+		<title>Запеченный ролл Майами</title>
+		<link>http://sutime.ru/katalog/zapechennyj-roll-majami/</link>
+		<comments>http://sutime.ru/katalog/zapechennyj-roll-majami/#respond</comments>
+		<pubDate>Fri, 07 Jul 2017 12:41:02 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Запеченные роллы]]></category>
+
+		<guid isPermaLink="false">http://sutime.ru/?p=499</guid>
+		<description><![CDATA[Нори, рис, мягкий сыр, угорь, лосось, огурец, белый соус, твердый сыр]]></description>
+				<content:encoded><![CDATA[<p>Нори, рис, мягкий сыр, угорь, лосось, огурец, белый соус, твердый сыр</p>
+]]></content:encoded>
+			<wfw:commentRss>http://sutime.ru/katalog/zapechennyj-roll-majami/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

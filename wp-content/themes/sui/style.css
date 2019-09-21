@@ -1,0 +1,173 @@
+* {font-family: 'HelveticaNeueCyr' !important;}
+
+.fa {
+    font: normal normal normal 14px/1 FontAwesome !important;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    text-transform: uppercase !important;
+    font-weight: 300 !important;
+    font-size: 1em !important;
+}
+.entry-content p, .entry-content ol
+{
+    font-size: 0.79167em;
+}
+
+.site-content
+{
+    margin-top: 15px;
+}
+
+.nav-item-link .fa
+{
+    font-size: 25px !important;
+}
+.nav-item-link:hover
+{
+    position: relative;
+    top: 5px;
+}
+
+.heading2
+{
+    color: rgba(0,0,0,.5);
+    margin: 20px 0 10px 0;
+}
+
+.heading2-link
+{
+    padding: 0 !important;
+}
+
+.categories-heading
+{
+    font-size: 24px;
+}
+
+
+.contacts-img
+{
+    background: no-repeat center bottom;
+    background-image: url("../../uploads/2017/08/kartinka.png");
+    background-size: 80%;
+}
+.contacts .row
+{
+    padding-bottom: 130px;
+    margin-bottom: 0 !important;
+}
+
+categories-heading
+{
+
+}
+
+footer .nav-social
+{
+    width: 100% !important;
+    display: inline-block !important;
+}
+
+footer .nav-social li
+{
+    width: auto !important;
+    display: inline-block !important;
+    margin-right: 10px;
+}
+
+footer .copyright .promo
+{
+    font-size: 1em !important;
+}
+
+footer .copyright .promo .nav-img, footer .copyright .promo .nav-img .nav-link, footer .copyright .promo .img-promo
+{
+    width: 20px !important;
+    padding: 0 !important;
+    max-width: none;
+}
+
+footer .copyright .promo .nav-img
+{
+    margin-right: 10px !important;
+}
+
+footer .down-menu label
+{
+    padding-left: 0 !important;
+    margin-top: 10px;
+    width: 100%;
+}
+
+@media all and (max-width: 992px) {
+    footer .copyright .copy
+    {
+        text-align: center !important;
+    }
+}
+
+.entry-content .table th
+{
+    font-weight: inherit !important;
+}
+
+.top-info .operating_time .phones
+{
+    text-align: center !important;
+}
+.top-info .operating_time .time .nav {
+    justify-content: center !important;
+}
+
+footer
+{
+    margin-top: -16px;
+    box-shadow: 0 -9px 0 0 #ffffff, 0 -10px 0 0 #f4f4f4;
+}
+/*sectionall {display: inline-block; width: 100%; min-height: calc(100vh - 468px);}*/
+
+section {border-bottom: 0 !important; margin-bottom: -40px; }
+/* section.contacts {margin-bottom: -50px;} */
+.contacts-img .telephones
+{
+    width: auto !important;
+}
+
+.block-cat
+{
+    margin-bottom: 20px;
+}
+
+.nav-link-social {display: inline-block !important;}
+div.wpcf7-response-output
+{
+	border: none;
+	margin: 0;
+	padding: 0;
+	font-size: 0.9em;
+	text-align: center;
+}
+
+.archive .hot-element
+{
+    min-height: 450px;
+}
+.archive .hot-element img
+{
+    max-height: 250px;
+}
+.archive-nav .paginate
+{
+    margin-bottom: 15px;
+}
+.btn:hover, .top-info .operating_time .btn:hover, .owl-carousel .owl-item .info .btn:hover, .hot .hot-element .btn:hover, .archive .hot-element .btn:hover, .archive .archive-nav .page-numbers:hover, footer .down-menu .btn:hover, .item .quantity .btn:hover
+{
+    cursor: pointer;
+}
+.owl-carousel .owl-nav .owl-prev i, .owl-carousel .owl-nav .owl-next i
+{
+    font-size: 32px !important;
+    margin: 0 !important;
+}

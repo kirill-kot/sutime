@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Сеты &#8212; Sutime</title>
+	<atom:link href="http://sutime.ru/katalog/sushi-i-roly/sety/feed/" rel="self" type="application/rss+xml" />
+	<link>http://sutime.ru</link>
+	<description>Доставка пиццы, суши и закусок в Воронеже</description>
+	<lastBuildDate>Thu, 09 May 2019 13:11:37 +0000</lastBuildDate>
+	<language>ru-RU</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	
+	<item>
+		<title>Сет №8</title>
+		<link>http://sutime.ru/katalog/set-%E2%84%968/</link>
+		<comments>http://sutime.ru/katalog/set-%E2%84%968/#respond</comments>
+		<pubDate>Mon, 10 Jul 2017 23:13:26 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Сеты]]></category>
+		<category><![CDATA[Новинка]]></category>
+
+		<guid isPermaLink="false">http://sutime.ru/?p=632</guid>
+		<description><![CDATA[Роллы: торнадо, Филадельфия с лососем (в кунжуте), Филадельфия с угрем (в кунжуте). 24 шт.]]></description>
+				<content:encoded><![CDATA[<p>Роллы: торнадо, Филадельфия с лососем (в кунжуте), Филадельфия с угрем (в кунжуте). 24 шт.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://sutime.ru/katalog/set-%E2%84%968/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

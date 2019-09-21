@@ -1,0 +1,1819 @@
+@charset "UTF-8";
+.btn, .top-info .operating_time .btn, .owl-carousel .owl-item .info .btn, .hot .hot-element .btn, .contacts .btn, .archive .hot-element .btn, .archive .archive-nav .page-numbers, footer .down-menu .btn, .item .quantity .btn {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'HelveticaNeueCyr';
+  color: #e84c28;
+  background-color: transparent;
+  border: 1px solid #e84c28;
+  border-radius: 0;
+  text-decoration: none; }
+  .btn:hover, .top-info .operating_time .btn:hover, .owl-carousel .owl-item .info .btn:hover, .hot .hot-element .btn:hover, .archive .hot-element .btn:hover, .archive .archive-nav .page-numbers:hover, footer .down-menu .btn:hover, .item .quantity .btn:hover {
+    color: #e84c28;
+    border: 1px solid #e84c28;
+    text-decoration: none; }
+  .btn:focus, .top-info .operating_time .btn:focus, .owl-carousel .owl-item .info .btn:focus, .hot .hot-element .btn:focus, .archive .hot-element .btn:focus, .archive .archive-nav .page-numbers:focus, footer .down-menu .btn:focus, .item .quantity .btn:focus {
+    box-shadow: none;
+    text-decoration: none; }
+  .btn:active, .top-info .operating_time .btn:active, .owl-carousel .owl-item .info .btn:active, .hot .hot-element .btn:active, .archive .hot-element .btn:active, .archive .archive-nav .page-numbers:active, footer .down-menu .btn:active, .item .quantity .btn:active {
+    box-shadow: none;
+    text-decoration: none; }
+
+a, .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .top-info .operating_time .time .nav .nav-item a, .sorts .nav-item a, .menu .menu-element ul li a, .hot .nav a, .about p > a {
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-family: 'HelveticaNeueCyr';
+  text-decoration: none; }
+  a:hover, .top-info .operating_time .dropdown-menu .dropdown-item .geo-link:hover, .top-info .operating_time .dropdown-menu .dropdown-item .phones:hover, .top-info .operating_time .dropdown-menu .btn:hover, .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers:hover, .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers:hover, .top-info .operating_time .time .nav .nav-item a:hover, .sorts .nav-item a:hover, .menu .menu-element ul li a:hover, .hot .nav a:hover, .about p > a:hover {
+    color: #e84c28;
+    text-decoration: none; }
+  a:after, .top-info .operating_time .dropdown-menu .dropdown-item .geo-link:after, .top-info .operating_time .dropdown-menu .dropdown-item .phones:after, .top-info .operating_time .dropdown-menu .btn:after, .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers:after, .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers:after, .top-info .operating_time .time .nav .nav-item a:after, .sorts .nav-item a:after, .menu .menu-element ul li a:after, .hot .nav a:after, .about p > a:after {
+    display: none; }
+
+.heading, .hot .hot-element .heading, .about .heading, .contacts .heading, .archive .hot-element .heading {
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-family: 'HelveticaNeueCyr'; }
+
+@media all and (max-width: 480px) {
+  .col-xs-12 {
+    width: 100%; }
+
+  .col-xs-6 {
+    width: 50%; } }
+label {
+  color: #adadad;
+  font-size: 0.79167em; }
+  @media (max-width: 1170px) {
+    label {
+      font-size: 0.79167em; } }
+  @media (max-width: 1024px) {
+    label {
+      font-size: 0.75em; } }
+  @media (max-width: 640px) {
+    label {
+      font-size: 1em; } }
+  @media (max-width: 480px) {
+    label {
+      font-size: 1.16667em; } }
+
+.form-control {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'HelveticaNeueCyr';
+  color: #adadad;
+  background-color: transparent;
+  border: 1px solid #adadad;
+  border-radius: 0; }
+  .form-control:focus {
+    color: #e84c28;
+    border: 1px solid #e84c28; }
+
+.form-check-label a, .form-check-label .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .form-check-label .geo-link, .form-check-label .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item .form-check-label .phones, .form-check-label .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu .form-check-label .btn, .form-check-label .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .form-check-label .page-numbers, .form-check-label .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .form-check-label .page-numbers, .form-check-label .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .nav .nav-item .form-check-label a, .form-check-label .sorts .nav-item a, .sorts .nav-item .form-check-label a, .form-check-label .menu .menu-element ul li a, .menu .menu-element ul li .form-check-label a, .form-check-label .hot .nav a, .hot .nav .form-check-label a, .form-check-label .about p > a, .about .form-check-label p > a {
+  color: #e84c28;
+  text-transform: none; }
+  .form-check-label a:hover, .form-check-label .top-info .operating_time .dropdown-menu .dropdown-item .geo-link:hover, .top-info .operating_time .dropdown-menu .dropdown-item .form-check-label .geo-link:hover, .form-check-label .top-info .operating_time .dropdown-menu .dropdown-item .phones:hover, .top-info .operating_time .dropdown-menu .dropdown-item .form-check-label .phones:hover, .form-check-label .top-info .operating_time .dropdown-menu .btn:hover, .top-info .operating_time .dropdown-menu .form-check-label .btn:hover, .form-check-label .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers:hover, .top-info .operating_time .dropdown-menu .archive .archive-nav .form-check-label .page-numbers:hover, .form-check-label .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers:hover, .archive .archive-nav .top-info .operating_time .dropdown-menu .form-check-label .page-numbers:hover, .form-check-label .top-info .operating_time .time .nav .nav-item a:hover, .top-info .operating_time .time .nav .nav-item .form-check-label a:hover, .form-check-label .menu .menu-element ul li a:hover, .menu .menu-element ul li .form-check-label a:hover {
+    color: #e84c28; }
+  .form-check-label a:focus, .form-check-label .top-info .operating_time .dropdown-menu .dropdown-item .geo-link:focus, .top-info .operating_time .dropdown-menu .dropdown-item .form-check-label .geo-link:focus, .form-check-label .top-info .operating_time .dropdown-menu .dropdown-item .phones:focus, .top-info .operating_time .dropdown-menu .dropdown-item .form-check-label .phones:focus, .form-check-label .top-info .operating_time .dropdown-menu .btn:focus, .top-info .operating_time .dropdown-menu .form-check-label .btn:focus, .form-check-label .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers:focus, .top-info .operating_time .dropdown-menu .archive .archive-nav .form-check-label .page-numbers:focus, .form-check-label .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers:focus, .archive .archive-nav .top-info .operating_time .dropdown-menu .form-check-label .page-numbers:focus, .form-check-label .top-info .operating_time .time .nav .nav-item a:focus, .top-info .operating_time .time .nav .nav-item .form-check-label a:focus, .form-check-label .menu .menu-element ul li a:focus, .menu .menu-element ul li .form-check-label a:focus {
+    color: #e84c28; }
+  .form-check-label a:active, .form-check-label .top-info .operating_time .dropdown-menu .dropdown-item .geo-link:active, .top-info .operating_time .dropdown-menu .dropdown-item .form-check-label .geo-link:active, .form-check-label .top-info .operating_time .dropdown-menu .dropdown-item .phones:active, .top-info .operating_time .dropdown-menu .dropdown-item .form-check-label .phones:active, .form-check-label .top-info .operating_time .dropdown-menu .btn:active, .top-info .operating_time .dropdown-menu .form-check-label .btn:active, .form-check-label .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers:active, .top-info .operating_time .dropdown-menu .archive .archive-nav .form-check-label .page-numbers:active, .form-check-label .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers:active, .archive .archive-nav .top-info .operating_time .dropdown-menu .form-check-label .page-numbers:active, .form-check-label .top-info .operating_time .time .nav .nav-item a:active, .top-info .operating_time .time .nav .nav-item .form-check-label a:active, .form-check-label .menu .menu-element ul li a:active, .menu .menu-element ul li .form-check-label a:active {
+    color: #e84c28; }
+
+.form-group .label {
+  position: absolute; }
+
+.modal-open .modal {
+  z-index: 1750;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: rgba(0, 0, 0, 0.67) !important; }
+
+#page {
+  position: relative; }
+
+.modal {
+  max-width: 100%;
+  position: absolute; }
+
+.YMaps-layer-container img {
+  max-width: none; }
+
+.sticky-top {
+  z-index: 1200; }
+
+html {
+  line-height: 1.2;
+  font-size: 1em; }
+  @media (max-width: 1170px) {
+    html {
+      font-size: 0.91667em; } }
+  @media (max-width: 1024px) {
+    html {
+      font-size: 0.83333em; } }
+  @media (max-width: 640px) {
+    html {
+      font-size: 0.75em; } }
+  @media (max-width: 480px) {
+    html {
+      font-size: 0.66667em; } }
+
+@media all and (min-width: 1280px) {
+  .container-1024 {
+    max-width: 1024px !important; } }
+
+@media all and (max-width: 480px) {
+  header > .nav-link {
+    width: 80%; } }
+@media all and (min-width: 992px) {
+  header #navbarNav {
+    width: 60% !important; } }
+header .navbar-toggler-right {
+  position: relative;
+  float: right; }
+header .phones {
+  z-index: 1250 !important; }
+@media all and (max-width: 480px) {
+  header .nav-item {
+    width: 80%;
+    float: left; } }
+header nav {
+  border-bottom: 1px solid #f4f4f4; }
+header .navbar-nav {
+  justify-content: space-around; }
+  header .navbar-nav ul {
+    list-style: none !important; }
+  header .navbar-nav li a, header .navbar-nav li .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item header .navbar-nav li .geo-link, header .navbar-nav li .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item header .navbar-nav li .phones, header .navbar-nav li .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu header .navbar-nav li .btn, header .navbar-nav li .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav header .navbar-nav li .page-numbers, header .navbar-nav li .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu header .navbar-nav li .page-numbers, header .navbar-nav li .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .nav .nav-item header .navbar-nav li a, header .navbar-nav li .sorts .nav-item a, .sorts .nav-item header .navbar-nav li a, header .navbar-nav .menu .menu-element ul li a, .menu .menu-element ul header .navbar-nav li a, header .navbar-nav li .hot .nav a, .hot .nav header .navbar-nav li a {
+    font-weight: 500;
+    font-family: 'HelveticaNeueCyr';
+    font-size: 0.79167em;
+    text-transform: uppercase;
+    color: #adadad; }
+    @media (max-width: 1170px) {
+      header .navbar-nav li a, header .navbar-nav li .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item header .navbar-nav li .geo-link, header .navbar-nav li .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item header .navbar-nav li .phones, header .navbar-nav li .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu header .navbar-nav li .btn, header .navbar-nav li .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav header .navbar-nav li .page-numbers, header .navbar-nav li .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu header .navbar-nav li .page-numbers, header .navbar-nav li .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .nav .nav-item header .navbar-nav li a, header .navbar-nav li .sorts .nav-item a, .sorts .nav-item header .navbar-nav li a, header .navbar-nav .menu .menu-element ul li a, .menu .menu-element ul header .navbar-nav li a, header .navbar-nav li .hot .nav a, .hot .nav header .navbar-nav li a {
+        font-size: 0.79167em; } }
+    @media (max-width: 1024px) {
+      header .navbar-nav li a, header .navbar-nav li .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item header .navbar-nav li .geo-link, header .navbar-nav li .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item header .navbar-nav li .phones, header .navbar-nav li .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu header .navbar-nav li .btn, header .navbar-nav li .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav header .navbar-nav li .page-numbers, header .navbar-nav li .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu header .navbar-nav li .page-numbers, header .navbar-nav li .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .nav .nav-item header .navbar-nav li a, header .navbar-nav li .sorts .nav-item a, .sorts .nav-item header .navbar-nav li a, header .navbar-nav .menu .menu-element ul li a, .menu .menu-element ul header .navbar-nav li a, header .navbar-nav li .hot .nav a, .hot .nav header .navbar-nav li a {
+        font-size: 0.75em; } }
+    @media (max-width: 640px) {
+      header .navbar-nav li a, header .navbar-nav li .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item header .navbar-nav li .geo-link, header .navbar-nav li .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item header .navbar-nav li .phones, header .navbar-nav li .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu header .navbar-nav li .btn, header .navbar-nav li .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav header .navbar-nav li .page-numbers, header .navbar-nav li .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu header .navbar-nav li .page-numbers, header .navbar-nav li .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .nav .nav-item header .navbar-nav li a, header .navbar-nav li .sorts .nav-item a, .sorts .nav-item header .navbar-nav li a, header .navbar-nav .menu .menu-element ul li a, .menu .menu-element ul header .navbar-nav li a, header .navbar-nav li .hot .nav a, .hot .nav header .navbar-nav li a {
+        font-size: 1em; } }
+    @media (max-width: 480px) {
+      header .navbar-nav li a, header .navbar-nav li .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item header .navbar-nav li .geo-link, header .navbar-nav li .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item header .navbar-nav li .phones, header .navbar-nav li .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu header .navbar-nav li .btn, header .navbar-nav li .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav header .navbar-nav li .page-numbers, header .navbar-nav li .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu header .navbar-nav li .page-numbers, header .navbar-nav li .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .nav .nav-item header .navbar-nav li a, header .navbar-nav li .sorts .nav-item a, .sorts .nav-item header .navbar-nav li a, header .navbar-nav .menu .menu-element ul li a, .menu .menu-element ul header .navbar-nav li a, header .navbar-nav li .hot .nav a, .hot .nav header .navbar-nav li a {
+        font-size: 1.16667em; } }
+    header .navbar-nav li a:hover, header .navbar-nav li .top-info .operating_time .dropdown-menu .dropdown-item .geo-link:hover, .top-info .operating_time .dropdown-menu .dropdown-item header .navbar-nav li .geo-link:hover, header .navbar-nav li .top-info .operating_time .dropdown-menu .dropdown-item .phones:hover, .top-info .operating_time .dropdown-menu .dropdown-item header .navbar-nav li .phones:hover, header .navbar-nav li .top-info .operating_time .dropdown-menu .btn:hover, .top-info .operating_time .dropdown-menu header .navbar-nav li .btn:hover, header .navbar-nav li .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers:hover, .top-info .operating_time .dropdown-menu .archive .archive-nav header .navbar-nav li .page-numbers:hover, header .navbar-nav li .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers:hover, .archive .archive-nav .top-info .operating_time .dropdown-menu header .navbar-nav li .page-numbers:hover, header .navbar-nav li .top-info .operating_time .time .nav .nav-item a:hover, .top-info .operating_time .time .nav .nav-item header .navbar-nav li a:hover {
+      color: #e84c28; }
+  header .navbar-nav .active a, header .navbar-nav .active .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item header .navbar-nav .active .geo-link, header .navbar-nav .active .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item header .navbar-nav .active .phones, header .navbar-nav .active .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu header .navbar-nav .active .btn, header .navbar-nav .active .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav header .navbar-nav .active .page-numbers, header .navbar-nav .active .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu header .navbar-nav .active .page-numbers, header .navbar-nav .active .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .nav .nav-item header .navbar-nav .active a, header .navbar-nav .active .menu .menu-element ul li a, .menu .menu-element ul li header .navbar-nav .active a {
+    color: #e84c28; }
+header .outer-link {
+  width: 180px;
+  font-weight: 500;
+  font-family: 'HelveticaNeueCyr';
+  font-size: 0.79167em;
+  text-transform: uppercase;
+  color: #adadad;
+  line-height: normal; }
+  @media (max-width: 1170px) {
+    header .outer-link {
+      font-size: 0.79167em; } }
+  @media (max-width: 1024px) {
+    header .outer-link {
+      font-size: 0.75em; } }
+  @media (max-width: 640px) {
+    header .outer-link {
+      font-size: 1em; } }
+  @media (max-width: 480px) {
+    header .outer-link {
+      font-size: 1.16667em; } }
+  header .outer-link .fa {
+    vertical-align: bottom;
+    font-size: 1.5em; }
+    @media (max-width: 1170px) {
+      header .outer-link .fa {
+        font-size: 1.33333em; } }
+    @media (max-width: 1024px) {
+      header .outer-link .fa {
+        font-size: 1.25em; } }
+    @media (max-width: 640px) {
+      header .outer-link .fa {
+        font-size: 1.5em; } }
+    @media (max-width: 480px) {
+      header .outer-link .fa {
+        font-size: 1.66667em; } }
+  header .outer-link:hover {
+    color: #e84c28;
+    text-decoration: none; }
+
+.navbar-toggler {
+  padding: 0;
+  font-size: 2em; }
+  @media (max-width: 1170px) {
+    .navbar-toggler {
+      font-size: 1.66667em; } }
+  @media (max-width: 1024px) {
+    .navbar-toggler {
+      font-size: 1.5em; } }
+  @media (max-width: 640px) {
+    .navbar-toggler {
+      font-size: 2em; } }
+  @media (max-width: 480px) {
+    .navbar-toggler {
+      font-size: 2.16667em; } }
+
+#sidr-left, #sidr-right {
+  background-color: #f4f4f4; }
+  #sidr-left .navbar-nav, #sidr-right .navbar-nav {
+    padding: 0; }
+    #sidr-left .navbar-nav ul, #sidr-right .navbar-nav ul {
+      list-style: none !important; }
+    #sidr-left .navbar-nav p, #sidr-right .navbar-nav p {
+      font-weight: 300;
+      font-family: 'HelveticaNeueCyr';
+      text-transform: uppercase;
+      color: #000000; }
+    #sidr-left .navbar-nav .nav-link, #sidr-right .navbar-nav .nav-link {
+      color: #000000; }
+      #sidr-left .navbar-nav .nav-link:hover, #sidr-right .navbar-nav .nav-link:hover {
+        color: #e84c28; }
+      #sidr-left .navbar-nav .nav-link:focus, #sidr-right .navbar-nav .nav-link:focus {
+        color: #e84c28; }
+      #sidr-left .navbar-nav .nav-link:active, #sidr-right .navbar-nav .nav-link:active {
+        color: #e84c28; }
+    #sidr-left .navbar-nav .btn, #sidr-right .navbar-nav .btn, #sidr-left .navbar-nav .archive .archive-nav .page-numbers, .archive .archive-nav #sidr-left .navbar-nav .page-numbers, #sidr-right .navbar-nav .archive .archive-nav .page-numbers, .archive .archive-nav #sidr-right .navbar-nav .page-numbers {
+      color: #e84c28;
+      padding: 1rem 2rem;
+      margin-bottom: 1rem; }
+    #sidr-left .navbar-nav .dropdown-menu, #sidr-right .navbar-nav .dropdown-menu {
+      border: none;
+      border-radius: 0;
+      background-color: #ffffff; }
+  #sidr-left .dropdown-toggle::after, #sidr-right .dropdown-toggle::after {
+    display: none; }
+
+#sidr-right .navbar-nav ul {
+  list-style: none !important; }
+
+#sorts-top {
+  top: -52px;
+  position: sticky;
+  height: auto;
+  max-height: 52px;
+  overflow: visible; }
+  #sorts-top .sorts {
+    height: auto;
+    max-height: 52px; }
+    #sorts-top .sorts nav {
+      height: auto;
+      max-height: 52px; }
+    #sorts-top .sorts .navbar-nav {
+      padding: 3rem 0;
+      justify-content: space-between; }
+      #sorts-top .sorts .navbar-nav li a, #sorts-top .sorts .navbar-nav li .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item #sorts-top .sorts .navbar-nav li .geo-link, #sorts-top .sorts .navbar-nav li .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item #sorts-top .sorts .navbar-nav li .phones, #sorts-top .sorts .navbar-nav li .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu #sorts-top .sorts .navbar-nav li .btn, #sorts-top .sorts .navbar-nav li .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav #sorts-top .sorts .navbar-nav li .page-numbers, #sorts-top .sorts .navbar-nav li .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu #sorts-top .sorts .navbar-nav li .page-numbers {
+        font-weight: 400;
+        font-family: 'HelveticaNeueCyr';
+        font-size: 0.91667em;
+        text-transform: uppercase;
+        color: black; }
+        @media (max-width: 1170px) {
+          #sorts-top .sorts .navbar-nav li a, #sorts-top .sorts .navbar-nav li .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item #sorts-top .sorts .navbar-nav li .geo-link, #sorts-top .sorts .navbar-nav li .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item #sorts-top .sorts .navbar-nav li .phones, #sorts-top .sorts .navbar-nav li .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu #sorts-top .sorts .navbar-nav li .btn, #sorts-top .sorts .navbar-nav li .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav #sorts-top .sorts .navbar-nav li .page-numbers, #sorts-top .sorts .navbar-nav li .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu #sorts-top .sorts .navbar-nav li .page-numbers {
+            font-size: 0.83333em; } }
+        @media (max-width: 1024px) {
+          #sorts-top .sorts .navbar-nav li a, #sorts-top .sorts .navbar-nav li .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item #sorts-top .sorts .navbar-nav li .geo-link, #sorts-top .sorts .navbar-nav li .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item #sorts-top .sorts .navbar-nav li .phones, #sorts-top .sorts .navbar-nav li .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu #sorts-top .sorts .navbar-nav li .btn, #sorts-top .sorts .navbar-nav li .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav #sorts-top .sorts .navbar-nav li .page-numbers, #sorts-top .sorts .navbar-nav li .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu #sorts-top .sorts .navbar-nav li .page-numbers {
+            font-size: 0.83333em; } }
+        @media (max-width: 640px) {
+          #sorts-top .sorts .navbar-nav li a, #sorts-top .sorts .navbar-nav li .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item #sorts-top .sorts .navbar-nav li .geo-link, #sorts-top .sorts .navbar-nav li .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item #sorts-top .sorts .navbar-nav li .phones, #sorts-top .sorts .navbar-nav li .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu #sorts-top .sorts .navbar-nav li .btn, #sorts-top .sorts .navbar-nav li .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav #sorts-top .sorts .navbar-nav li .page-numbers, #sorts-top .sorts .navbar-nav li .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu #sorts-top .sorts .navbar-nav li .page-numbers {
+            font-size: 0.91667em; } }
+        @media (max-width: 480px) {
+          #sorts-top .sorts .navbar-nav li a, #sorts-top .sorts .navbar-nav li .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item #sorts-top .sorts .navbar-nav li .geo-link, #sorts-top .sorts .navbar-nav li .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item #sorts-top .sorts .navbar-nav li .phones, #sorts-top .sorts .navbar-nav li .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu #sorts-top .sorts .navbar-nav li .btn, #sorts-top .sorts .navbar-nav li .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav #sorts-top .sorts .navbar-nav li .page-numbers, #sorts-top .sorts .navbar-nav li .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu #sorts-top .sorts .navbar-nav li .page-numbers {
+            font-size: 1.08333em; } }
+        #sorts-top .sorts .navbar-nav li a:hover, #sorts-top .sorts .navbar-nav li .top-info .operating_time .dropdown-menu .dropdown-item .geo-link:hover, .top-info .operating_time .dropdown-menu .dropdown-item #sorts-top .sorts .navbar-nav li .geo-link:hover, #sorts-top .sorts .navbar-nav li .top-info .operating_time .dropdown-menu .dropdown-item .phones:hover, .top-info .operating_time .dropdown-menu .dropdown-item #sorts-top .sorts .navbar-nav li .phones:hover, #sorts-top .sorts .navbar-nav li .top-info .operating_time .dropdown-menu .btn:hover, .top-info .operating_time .dropdown-menu #sorts-top .sorts .navbar-nav li .btn:hover, #sorts-top .sorts .navbar-nav li .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers:hover, .top-info .operating_time .dropdown-menu .archive .archive-nav #sorts-top .sorts .navbar-nav li .page-numbers:hover, #sorts-top .sorts .navbar-nav li .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers:hover, .archive .archive-nav .top-info .operating_time .dropdown-menu #sorts-top .sorts .navbar-nav li .page-numbers:hover {
+          color: #e84c28; }
+      #sorts-top .sorts .navbar-nav .active a, #sorts-top .sorts .navbar-nav .active .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item #sorts-top .sorts .navbar-nav .active .geo-link, #sorts-top .sorts .navbar-nav .active .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item #sorts-top .sorts .navbar-nav .active .phones, #sorts-top .sorts .navbar-nav .active .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu #sorts-top .sorts .navbar-nav .active .btn, #sorts-top .sorts .navbar-nav .active .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav #sorts-top .sorts .navbar-nav .active .page-numbers, #sorts-top .sorts .navbar-nav .active .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu #sorts-top .sorts .navbar-nav .active .page-numbers {
+        color: #e84c28; }
+
+.top-info {
+  margin-top: 24px;
+  margin-bottom: 30px; }
+  @media all and (max-width: 640px) {
+    .top-info .brand {
+      text-align: center;
+      margin-bottom: 1rem; } }
+  .top-info .tagline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .top-info .tagline p {
+      margin: auto 0;
+      text-transform: uppercase;
+      font-weight: 300;
+      font-family: 'HelveticaNeueCyr';
+      font-size: 0.79167em; }
+      @media (max-width: 1170px) {
+        .top-info .tagline p {
+          font-size: 0.79167em; } }
+      @media (max-width: 1024px) {
+        .top-info .tagline p {
+          font-size: 0.75em; } }
+      @media (max-width: 640px) {
+        .top-info .tagline p {
+          font-size: 1em; } }
+      @media (max-width: 480px) {
+        .top-info .tagline p {
+          font-size: 1.16667em; } }
+  .top-info .operating_time {
+    text-align: right; }
+    .top-info .operating_time .btn, .top-info .operating_time .owl-carousel .owl-item .info .btn, .owl-carousel .owl-item .info .top-info .operating_time .btn, .top-info .operating_time .archive .archive-nav .page-numbers, .archive .archive-nav .top-info .operating_time .page-numbers {
+      box-shadow: none; }
+      .top-info .operating_time .btn:focus, .top-info .operating_time .archive .archive-nav .page-numbers:focus, .archive .archive-nav .top-info .operating_time .page-numbers:focus {
+        box-shadow: none; }
+      .top-info .operating_time .btn:active, .top-info .operating_time .archive .archive-nav .page-numbers:active, .archive .archive-nav .top-info .operating_time .page-numbers:active {
+        box-shadow: none; }
+    .top-info .operating_time .dropdown-toggle::after {
+      display: none; }
+    .top-info .operating_time .dropdown-menu {
+      top: auto;
+      left: auto;
+      right: 0;
+      border: none;
+      border-radius: 0;
+      margin: 0;
+      z-index: 1250;
+      text-align: right;
+      background-color: #f4f4f4 !important; }
+      .top-info .operating_time .dropdown-menu .dropdown-item:hover {
+        color: #e84c28;
+        background-color: transparent !important; }
+      .top-info .operating_time .dropdown-menu .dropdown-item:focus {
+        color: #e84c28;
+        background-color: transparent !important; }
+      .top-info .operating_time .dropdown-menu .dropdown-item:active {
+        color: #e84c28;
+        background-color: transparent !important; }
+      .top-info .operating_time .dropdown-menu .dropdown-item .geo-link {
+        font-size: 0.66667em;
+        padding: 0;
+        clear: both;
+        display: block;
+        position: relative;
+        text-align: right; }
+        @media (max-width: 1170px) {
+          .top-info .operating_time .dropdown-menu .dropdown-item .geo-link {
+            font-size: 0.625em; } }
+        @media (max-width: 1024px) {
+          .top-info .operating_time .dropdown-menu .dropdown-item .geo-link {
+            font-size: 0.58333em; } }
+        @media (max-width: 640px) {
+          .top-info .operating_time .dropdown-menu .dropdown-item .geo-link {
+            font-size: 0.66667em; } }
+        @media (max-width: 480px) {
+          .top-info .operating_time .dropdown-menu .dropdown-item .geo-link {
+            font-size: 0.75em; } }
+      .top-info .operating_time .dropdown-menu .dropdown-item .phones {
+        font-size: 1em;
+        text-align: right;
+        clear: both;
+        display: block;
+        position: relative; }
+        @media (max-width: 1170px) {
+          .top-info .operating_time .dropdown-menu .dropdown-item .phones {
+            font-size: 0.91667em; } }
+        @media (max-width: 1024px) {
+          .top-info .operating_time .dropdown-menu .dropdown-item .phones {
+            font-size: 0.75em; } }
+        @media (max-width: 640px) {
+          .top-info .operating_time .dropdown-menu .dropdown-item .phones {
+            font-size: 1em; } }
+        @media (max-width: 480px) {
+          .top-info .operating_time .dropdown-menu .dropdown-item .phones {
+            font-size: 1.16667em; } }
+      .top-info .operating_time .dropdown-menu .dropdown-item .text-center {
+        text-align: center; }
+      .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers {
+        font-size: 1em;
+        font-weight: 900;
+        color: #adadad;
+        border: 1px solid #adadad; }
+        @media (max-width: 1170px) {
+          .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers {
+            font-size: 0.91667em; } }
+        @media (max-width: 1024px) {
+          .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers {
+            font-size: 0.75em; } }
+        @media (max-width: 640px) {
+          .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers {
+            font-size: 1em; } }
+        @media (max-width: 480px) {
+          .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers {
+            font-size: 1.16667em; } }
+        .top-info .operating_time .dropdown-menu .btn:hover, .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers:hover, .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers:hover {
+          border: 1px solid #e84c28; }
+    .top-info .operating_time .time {
+      margin-top: 17px; }
+      .top-info .operating_time .time p {
+        text-transform: uppercase;
+        font-weight: 400;
+        font-family: 'HelveticaNeueCyr';
+        font-size: 0.79167em;
+        margin: 0;
+        color: #adadad; }
+        @media (max-width: 1170px) {
+          .top-info .operating_time .time p {
+            font-size: 0.79167em; } }
+        @media (max-width: 1024px) {
+          .top-info .operating_time .time p {
+            font-size: 0.75em; } }
+        @media (max-width: 640px) {
+          .top-info .operating_time .time p {
+            font-size: 1em; } }
+        @media (max-width: 480px) {
+          .top-info .operating_time .time p {
+            font-size: 1.16667em; } }
+      .top-info .operating_time .time .nav {
+        justify-content: flex-end;
+        border: none;
+        margin-bottom: 5px; }
+        .top-info .operating_time .time .nav .nav-item .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .time .nav .nav-item .geo-link, .top-info .operating_time .time .nav .nav-item .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item .time .nav .nav-item .phones, .top-info .operating_time .time .nav .nav-item .dropdown-menu .btn, .top-info .operating_time .dropdown-menu .time .nav .nav-item .btn, .top-info .operating_time .time .nav .nav-item .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .time .nav .nav-item .page-numbers, .archive .archive-nav .top-info .operating_time .time .nav .nav-item .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .time .nav .nav-item .page-numbers, .top-info .operating_time .time .nav .nav-item a {
+          width: 24px;
+          text-align: center;
+          padding: 0;
+          font-weight: 800;
+          font-size: 0.625em;
+          color: #adadad; }
+          @media (max-width: 1170px) {
+            .top-info .operating_time .time .nav .nav-item .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .time .nav .nav-item .geo-link, .top-info .operating_time .time .nav .nav-item .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item .time .nav .nav-item .phones, .top-info .operating_time .time .nav .nav-item .dropdown-menu .btn, .top-info .operating_time .dropdown-menu .time .nav .nav-item .btn, .top-info .operating_time .time .nav .nav-item .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .time .nav .nav-item .page-numbers, .archive .archive-nav .top-info .operating_time .time .nav .nav-item .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .time .nav .nav-item .page-numbers, .top-info .operating_time .time .nav .nav-item a {
+              font-size: 0.625em; } }
+          @media (max-width: 1024px) {
+            .top-info .operating_time .time .nav .nav-item .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .time .nav .nav-item .geo-link, .top-info .operating_time .time .nav .nav-item .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item .time .nav .nav-item .phones, .top-info .operating_time .time .nav .nav-item .dropdown-menu .btn, .top-info .operating_time .dropdown-menu .time .nav .nav-item .btn, .top-info .operating_time .time .nav .nav-item .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .time .nav .nav-item .page-numbers, .archive .archive-nav .top-info .operating_time .time .nav .nav-item .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .time .nav .nav-item .page-numbers, .top-info .operating_time .time .nav .nav-item a {
+              font-size: 0.58333em; } }
+          @media (max-width: 640px) {
+            .top-info .operating_time .time .nav .nav-item .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .time .nav .nav-item .geo-link, .top-info .operating_time .time .nav .nav-item .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item .time .nav .nav-item .phones, .top-info .operating_time .time .nav .nav-item .dropdown-menu .btn, .top-info .operating_time .dropdown-menu .time .nav .nav-item .btn, .top-info .operating_time .time .nav .nav-item .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .time .nav .nav-item .page-numbers, .archive .archive-nav .top-info .operating_time .time .nav .nav-item .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .time .nav .nav-item .page-numbers, .top-info .operating_time .time .nav .nav-item a {
+              font-size: 0.83333em; } }
+          @media (max-width: 480px) {
+            .top-info .operating_time .time .nav .nav-item .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .time .nav .nav-item .geo-link, .top-info .operating_time .time .nav .nav-item .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item .time .nav .nav-item .phones, .top-info .operating_time .time .nav .nav-item .dropdown-menu .btn, .top-info .operating_time .dropdown-menu .time .nav .nav-item .btn, .top-info .operating_time .time .nav .nav-item .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .time .nav .nav-item .page-numbers, .archive .archive-nav .top-info .operating_time .time .nav .nav-item .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .time .nav .nav-item .page-numbers, .top-info .operating_time .time .nav .nav-item a {
+              font-size: 1em; } }
+          .top-info .operating_time .time .nav .nav-item .dropdown-menu .dropdown-item .current.geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .time .nav .nav-item .current.geo-link, .top-info .operating_time .time .nav .nav-item .dropdown-menu .dropdown-item .current.phones, .top-info .operating_time .dropdown-menu .dropdown-item .time .nav .nav-item .current.phones, .top-info .operating_time .time .nav .nav-item .dropdown-menu .current.btn, .top-info .operating_time .dropdown-menu .time .nav .nav-item .current.btn, .top-info .operating_time .time .nav .nav-item .dropdown-menu .archive .archive-nav .current.page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .time .nav .nav-item .current.page-numbers, .archive .archive-nav .top-info .operating_time .time .nav .nav-item .dropdown-menu .current.page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .time .nav .nav-item .current.page-numbers, .top-info .operating_time .time .nav .nav-item a.current {
+            color: #e84c28 !important;
+            border-radius: 0 !important;
+            background-color: transparent !important;
+            border: 1px solid #e84c28 !important; }
+        .top-info .operating_time .time .nav .active {
+          border-radius: 0;
+          background-color: transparent;
+          border: 1px solid #e84c28; }
+
+@media all and (max-width: 992px) {
+  .navbar-toggleable-md > .container {
+    width: 100%; } }
+
+.sorts {
+  z-index: 1200 !important;
+  background-color: #f4f4f4; }
+  .sorts .navbar-toggler-right {
+    position: relative;
+    float: right; }
+  @media all and (min-width: 992px) {
+    .sorts .nav-fill {
+      width: 100%; } }
+  @media all and (max-width: 992px) {
+    .sorts #sorts .nav-fill {
+      width: 100%; }
+      .sorts #sorts .nav-fill .nav-link {
+        text-align: left; } }
+  @media all and (min-width: 1024px) {
+    .sorts .dropdown > .dropdown-menu {
+      display: none; }
+    .sorts .dropdown:hover > .dropdown-menu {
+      display: block;
+      border: none !important;
+      border-radius: 0 !important;
+      background-color: #f4f4f4; } }
+  .sorts .nav-item .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .sorts .nav-item .geo-link, .sorts .nav-item .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item .sorts .nav-item .phones, .sorts .nav-item .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu .sorts .nav-item .btn, .sorts .nav-item .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .sorts .nav-item .page-numbers, .sorts .nav-item .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .sorts .nav-item .page-numbers, .sorts .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .nav .sorts .nav-item a, .sorts .nav-item a, .sorts .nav-item .menu .menu-element ul li a, .menu .menu-element ul li .sorts .nav-item a {
+    font-weight: 400;
+    font-size: 0.91667em; }
+    @media (max-width: 1170px) {
+      .sorts .nav-item .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .sorts .nav-item .geo-link, .sorts .nav-item .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item .sorts .nav-item .phones, .sorts .nav-item .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu .sorts .nav-item .btn, .sorts .nav-item .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .sorts .nav-item .page-numbers, .sorts .nav-item .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .sorts .nav-item .page-numbers, .sorts .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .nav .sorts .nav-item a, .sorts .nav-item a, .sorts .nav-item .menu .menu-element ul li a, .menu .menu-element ul li .sorts .nav-item a {
+        font-size: 0.83333em; } }
+    @media (max-width: 1024px) {
+      .sorts .nav-item .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .sorts .nav-item .geo-link, .sorts .nav-item .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item .sorts .nav-item .phones, .sorts .nav-item .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu .sorts .nav-item .btn, .sorts .nav-item .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .sorts .nav-item .page-numbers, .sorts .nav-item .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .sorts .nav-item .page-numbers, .sorts .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .nav .sorts .nav-item a, .sorts .nav-item a, .sorts .nav-item .menu .menu-element ul li a, .menu .menu-element ul li .sorts .nav-item a {
+        font-size: 0.83333em; } }
+    @media (max-width: 640px) {
+      .sorts .nav-item .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .sorts .nav-item .geo-link, .sorts .nav-item .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item .sorts .nav-item .phones, .sorts .nav-item .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu .sorts .nav-item .btn, .sorts .nav-item .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .sorts .nav-item .page-numbers, .sorts .nav-item .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .sorts .nav-item .page-numbers, .sorts .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .nav .sorts .nav-item a, .sorts .nav-item a, .sorts .nav-item .menu .menu-element ul li a, .menu .menu-element ul li .sorts .nav-item a {
+        font-size: 0.91667em; } }
+    @media (max-width: 480px) {
+      .sorts .nav-item .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .sorts .nav-item .geo-link, .sorts .nav-item .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item .sorts .nav-item .phones, .sorts .nav-item .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu .sorts .nav-item .btn, .sorts .nav-item .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .sorts .nav-item .page-numbers, .sorts .nav-item .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .sorts .nav-item .page-numbers, .sorts .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .nav .sorts .nav-item a, .sorts .nav-item a, .sorts .nav-item .menu .menu-element ul li a, .menu .menu-element ul li .sorts .nav-item a {
+        font-size: 1.08333em; } }
+  .sorts .nav-item .show .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .sorts .nav-item .show .geo-link, .sorts .nav-item .show .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item .sorts .nav-item .show .phones, .sorts .nav-item .show .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu .sorts .nav-item .show .btn, .sorts .nav-item .show .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .sorts .nav-item .show .page-numbers, .sorts .nav-item .show .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .sorts .nav-item .show .page-numbers, .sorts .top-info .operating_time .time .nav .nav-item .show a, .top-info .operating_time .time .nav .sorts .nav-item .show a, .sorts .nav-item .show a {
+    color: #e84c28; }
+  .sorts .nav-item .show .dropdown-menu {
+    border: none;
+    border-radius: 0;
+    background-color: #f4f4f4; }
+    .sorts .nav-item .show .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .sorts .nav-item .show .dropdown-menu .dropdown-item .geo-link, .sorts .nav-item .show .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .sorts .nav-item .show .dropdown-menu .dropdown-item .phones, .sorts .nav-item .show .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .sorts .nav-item .show .dropdown-menu .btn, .sorts .nav-item .show .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .sorts .nav-item .show .dropdown-menu .archive .archive-nav .page-numbers, .sorts .nav-item .show .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .sorts .nav-item .show .dropdown-menu .page-numbers, .sorts .top-info .operating_time .time .nav .nav-item .show .dropdown-menu a, .top-info .operating_time .time .nav .sorts .nav-item .show .dropdown-menu a, .sorts .nav-item .show .dropdown-menu a {
+      color: #adadad; }
+      .sorts .nav-item .show .top-info .operating_time .dropdown-menu .dropdown-item .geo-link:hover, .top-info .operating_time .sorts .nav-item .show .dropdown-menu .dropdown-item .geo-link:hover, .sorts .nav-item .show .top-info .operating_time .dropdown-menu .dropdown-item .phones:hover, .top-info .operating_time .sorts .nav-item .show .dropdown-menu .dropdown-item .phones:hover, .sorts .nav-item .show .top-info .operating_time .dropdown-menu .btn:hover, .top-info .operating_time .sorts .nav-item .show .dropdown-menu .btn:hover, .sorts .nav-item .show .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers:hover, .top-info .operating_time .sorts .nav-item .show .dropdown-menu .archive .archive-nav .page-numbers:hover, .sorts .nav-item .show .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers:hover, .archive .archive-nav .top-info .operating_time .sorts .nav-item .show .dropdown-menu .page-numbers:hover, .sorts .nav-item .show .dropdown-menu a:hover {
+        color: #e84c28;
+        background-color: transparent !important; }
+
+.owl-carousel {
+  overflow: hidden;
+  height: 600px;
+  position: relative; }
+  @media (max-width: 1280px) {
+    .owl-carousel {
+      height: 600px; } }
+  @media (max-width: 1170px) {
+    .owl-carousel {
+      height: 540px; } }
+  @media (max-width: 1024px) {
+    .owl-carousel {
+      height: 480px; } }
+  @media (max-width: 640px) {
+    .owl-carousel {
+      height: 360px; } }
+  @media (max-width: 480px) {
+    .owl-carousel {
+      height: 400px; } }
+  .owl-carousel .owl-item {
+    position: relative;
+    height: 600px; }
+    @media (max-width: 1280px) {
+      .owl-carousel .owl-item {
+        height: 600px; } }
+    @media (max-width: 1170px) {
+      .owl-carousel .owl-item {
+        height: 540px; } }
+    @media (max-width: 1024px) {
+      .owl-carousel .owl-item {
+        height: 480px; } }
+    @media (max-width: 640px) {
+      .owl-carousel .owl-item {
+        height: 360px; } }
+    @media (max-width: 480px) {
+      .owl-carousel .owl-item {
+        height: 400px; } }
+    .owl-carousel .owl-item .sa_hover_container {
+      height: 600px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      background-position: center center !important;
+      background-size: cover !important; }
+      @media (max-width: 1280px) {
+        .owl-carousel .owl-item .sa_hover_container {
+          height: 600px; } }
+      @media (max-width: 1170px) {
+        .owl-carousel .owl-item .sa_hover_container {
+          height: 540px; } }
+      @media (max-width: 1024px) {
+        .owl-carousel .owl-item .sa_hover_container {
+          height: 480px; } }
+      @media (max-width: 640px) {
+        .owl-carousel .owl-item .sa_hover_container {
+          height: 360px; } }
+      @media (max-width: 480px) {
+        .owl-carousel .owl-item .sa_hover_container {
+          height: 400px; } }
+      .owl-carousel .owl-item .sa_hover_container img {
+        mix-blend-mode: multiply; }
+    .owl-carousel .owl-item .info {
+      position: relative; }
+      .owl-carousel .owl-item .info p {
+        margin: 0; }
+      .owl-carousel .owl-item .info .heading {
+        margin-top: 40px;
+        color: #000000;
+        text-transform: uppercase;
+        font-weight: 900;
+        font-family: 'HelveticaNeueCyr';
+        font-size: 1.83333em; }
+        @media (max-width: 1280px) {
+          .owl-carousel .owl-item .info .heading {
+            margin-top: 40px; } }
+        @media (max-width: 1170px) {
+          .owl-carousel .owl-item .info .heading {
+            margin-top: 30px; } }
+        @media (max-width: 1024px) {
+          .owl-carousel .owl-item .info .heading {
+            margin-top: 20px; } }
+        @media (max-width: 640px) {
+          .owl-carousel .owl-item .info .heading {
+            margin-top: 15px; } }
+        @media (max-width: 480px) {
+          .owl-carousel .owl-item .info .heading {
+            margin-top: 10px; } }
+        @media (max-width: 1170px) {
+          .owl-carousel .owl-item .info .heading {
+            font-size: 1.5em; } }
+        @media (max-width: 1024px) {
+          .owl-carousel .owl-item .info .heading {
+            font-size: 1.41667em; } }
+        @media (max-width: 640px) {
+          .owl-carousel .owl-item .info .heading {
+            font-size: 1.83333em; } }
+        @media (max-width: 480px) {
+          .owl-carousel .owl-item .info .heading {
+            font-size: 2em; } }
+      .owl-carousel .owl-item .info .subheading {
+        margin-top: 40px;
+        color: #000000;
+        text-transform: uppercase;
+        font-weight: 300;
+        font-family: 'HelveticaNeueCyr';
+        font-size: 0.79167em; }
+        @media (max-width: 1280px) {
+          .owl-carousel .owl-item .info .subheading {
+            margin-top: 40px; } }
+        @media (max-width: 1170px) {
+          .owl-carousel .owl-item .info .subheading {
+            margin-top: 30px; } }
+        @media (max-width: 1024px) {
+          .owl-carousel .owl-item .info .subheading {
+            margin-top: 20px; } }
+        @media (max-width: 640px) {
+          .owl-carousel .owl-item .info .subheading {
+            margin-top: 15px; } }
+        @media (max-width: 480px) {
+          .owl-carousel .owl-item .info .subheading {
+            margin-top: 10px; } }
+        @media (max-width: 1170px) {
+          .owl-carousel .owl-item .info .subheading {
+            font-size: 0.79167em; } }
+        @media (max-width: 1024px) {
+          .owl-carousel .owl-item .info .subheading {
+            font-size: 0.75em; } }
+        @media (max-width: 640px) {
+          .owl-carousel .owl-item .info .subheading {
+            font-size: 1em; } }
+        @media (max-width: 480px) {
+          .owl-carousel .owl-item .info .subheading {
+            font-size: 1.16667em; } }
+      .owl-carousel .owl-item .info .price {
+        margin-top: 40px;
+        color: #e84c28;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-family: 'HelveticaNeueCyr';
+        font-size: 1.83333em; }
+        @media (max-width: 1280px) {
+          .owl-carousel .owl-item .info .price {
+            margin-top: 40px; } }
+        @media (max-width: 1170px) {
+          .owl-carousel .owl-item .info .price {
+            margin-top: 30px; } }
+        @media (max-width: 1024px) {
+          .owl-carousel .owl-item .info .price {
+            margin-top: 20px; } }
+        @media (max-width: 640px) {
+          .owl-carousel .owl-item .info .price {
+            margin-top: 15px; } }
+        @media (max-width: 480px) {
+          .owl-carousel .owl-item .info .price {
+            margin-top: 10px; } }
+        @media (max-width: 1170px) {
+          .owl-carousel .owl-item .info .price {
+            font-size: 1.5em; } }
+        @media (max-width: 1024px) {
+          .owl-carousel .owl-item .info .price {
+            font-size: 1.41667em; } }
+        @media (max-width: 640px) {
+          .owl-carousel .owl-item .info .price {
+            font-size: 1.83333em; } }
+        @media (max-width: 480px) {
+          .owl-carousel .owl-item .info .price {
+            font-size: 2em; } }
+      .owl-carousel .owl-item .info .btn, .owl-carousel .owl-item .info .archive .archive-nav .page-numbers, .archive .archive-nav .owl-carousel .owl-item .info .page-numbers {
+        margin-top: 40px;
+        color: #adadad;
+        border-color: #adadad;
+        font-size: 0.79167em;
+        padding: 1em 2.5em; }
+        @media (max-width: 1280px) {
+          .owl-carousel .owl-item .info .btn, .owl-carousel .owl-item .info .archive .archive-nav .page-numbers, .archive .archive-nav .owl-carousel .owl-item .info .page-numbers {
+            margin-top: 40px; } }
+        @media (max-width: 1170px) {
+          .owl-carousel .owl-item .info .btn, .owl-carousel .owl-item .info .archive .archive-nav .page-numbers, .archive .archive-nav .owl-carousel .owl-item .info .page-numbers {
+            margin-top: 30px; } }
+        @media (max-width: 1024px) {
+          .owl-carousel .owl-item .info .btn, .owl-carousel .owl-item .info .archive .archive-nav .page-numbers, .archive .archive-nav .owl-carousel .owl-item .info .page-numbers {
+            margin-top: 20px; } }
+        @media (max-width: 640px) {
+          .owl-carousel .owl-item .info .btn, .owl-carousel .owl-item .info .archive .archive-nav .page-numbers, .archive .archive-nav .owl-carousel .owl-item .info .page-numbers {
+            margin-top: 15px; } }
+        @media (max-width: 480px) {
+          .owl-carousel .owl-item .info .btn, .owl-carousel .owl-item .info .archive .archive-nav .page-numbers, .archive .archive-nav .owl-carousel .owl-item .info .page-numbers {
+            margin-top: 10px; } }
+        @media (max-width: 1170px) {
+          .owl-carousel .owl-item .info .btn, .owl-carousel .owl-item .info .archive .archive-nav .page-numbers, .archive .archive-nav .owl-carousel .owl-item .info .page-numbers {
+            font-size: 0.79167em; } }
+        @media (max-width: 1024px) {
+          .owl-carousel .owl-item .info .btn, .owl-carousel .owl-item .info .archive .archive-nav .page-numbers, .archive .archive-nav .owl-carousel .owl-item .info .page-numbers {
+            font-size: 0.75em; } }
+        @media (max-width: 640px) {
+          .owl-carousel .owl-item .info .btn, .owl-carousel .owl-item .info .archive .archive-nav .page-numbers, .archive .archive-nav .owl-carousel .owl-item .info .page-numbers {
+            font-size: 1em; } }
+        @media (max-width: 480px) {
+          .owl-carousel .owl-item .info .btn, .owl-carousel .owl-item .info .archive .archive-nav .page-numbers, .archive .archive-nav .owl-carousel .owl-item .info .page-numbers {
+            font-size: 1.16667em; } }
+        .owl-carousel .owl-item .info .btn:hover, .owl-carousel .owl-item .info .archive .archive-nav .page-numbers:hover, .archive .archive-nav .owl-carousel .owl-item .info .page-numbers:hover {
+          color: #e84c28;
+          border-color: #e84c28; }
+  .owl-carousel .owl-nav {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+	text-align: center; }
+    .owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next {
+      left: auto !important;
+      right: auto !important;
+      position: relative !important;
+      display: inline-block !important;
+      height: 36px !important;
+      width: 36px !important;
+      border: 1px solid #adadad;
+      text-align: center;
+      margin: 0 14px;
+      background: none !important; }
+      .owl-carousel .owl-nav .owl-prev i, .owl-carousel .owl-nav .owl-next i {
+        margin: 2px;
+        font-size: 32px;
+        color: #adadad; }
+      .owl-carousel .owl-nav .owl-prev:hover, .owl-carousel .owl-nav .owl-next:hover {
+        border-color: #e84c28; 
+      background: transparent !important; }
+        .owl-carousel .owl-nav .owl-prev:hover > i, .owl-carousel .owl-nav .owl-next:hover > i {
+          color: #e84c28; }
+
+.menu {
+  border-bottom: 1px solid #f4f4f4; }
+  .menu .row {
+    margin-bottom: 50px; }
+  .menu a.heading, .menu .top-info .operating_time .dropdown-menu .dropdown-item .heading.geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .menu .heading.geo-link, .menu .top-info .operating_time .dropdown-menu .dropdown-item .heading.phones, .top-info .operating_time .dropdown-menu .dropdown-item .menu .heading.phones, .menu .top-info .operating_time .dropdown-menu .heading.btn, .top-info .operating_time .dropdown-menu .menu .heading.btn, .menu .top-info .operating_time .dropdown-menu .archive .archive-nav .heading.page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .menu .heading.page-numbers, .menu .archive .archive-nav .top-info .operating_time .dropdown-menu .heading.page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .menu .heading.page-numbers, .menu .top-info .operating_time .time .nav .nav-item a.heading, .top-info .operating_time .time .nav .nav-item .menu a.heading, .menu .menu-element ul li a.heading, .menu .hot .hot-element a.heading, .hot .hot-element .menu a.heading, .menu .archive .hot-element a.heading, .archive .hot-element .menu a.heading {
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: 'HelveticaNeueCyr';
+    font-size: 1.5em; }
+    @media (max-width: 1170px) {
+      .menu a.heading, .menu .top-info .operating_time .dropdown-menu .dropdown-item .heading.geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .menu .heading.geo-link, .menu .top-info .operating_time .dropdown-menu .dropdown-item .heading.phones, .top-info .operating_time .dropdown-menu .dropdown-item .menu .heading.phones, .menu .top-info .operating_time .dropdown-menu .heading.btn, .top-info .operating_time .dropdown-menu .menu .heading.btn, .menu .top-info .operating_time .dropdown-menu .archive .archive-nav .heading.page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .menu .heading.page-numbers, .menu .archive .archive-nav .top-info .operating_time .dropdown-menu .heading.page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .menu .heading.page-numbers, .menu .top-info .operating_time .time .nav .nav-item a.heading, .top-info .operating_time .time .nav .nav-item .menu a.heading, .menu .menu-element ul li a.heading, .menu .hot .hot-element a.heading, .hot .hot-element .menu a.heading, .menu .archive .hot-element a.heading, .archive .hot-element .menu a.heading {
+        font-size: 1.33333em; } }
+    @media (max-width: 1024px) {
+      .menu a.heading, .menu .top-info .operating_time .dropdown-menu .dropdown-item .heading.geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .menu .heading.geo-link, .menu .top-info .operating_time .dropdown-menu .dropdown-item .heading.phones, .top-info .operating_time .dropdown-menu .dropdown-item .menu .heading.phones, .menu .top-info .operating_time .dropdown-menu .heading.btn, .top-info .operating_time .dropdown-menu .menu .heading.btn, .menu .top-info .operating_time .dropdown-menu .archive .archive-nav .heading.page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .menu .heading.page-numbers, .menu .archive .archive-nav .top-info .operating_time .dropdown-menu .heading.page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .menu .heading.page-numbers, .menu .top-info .operating_time .time .nav .nav-item a.heading, .top-info .operating_time .time .nav .nav-item .menu a.heading, .menu .menu-element ul li a.heading, .menu .hot .hot-element a.heading, .hot .hot-element .menu a.heading, .menu .archive .hot-element a.heading, .archive .hot-element .menu a.heading {
+        font-size: 1.25em; } }
+    @media (max-width: 640px) {
+      .menu a.heading, .menu .top-info .operating_time .dropdown-menu .dropdown-item .heading.geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .menu .heading.geo-link, .menu .top-info .operating_time .dropdown-menu .dropdown-item .heading.phones, .top-info .operating_time .dropdown-menu .dropdown-item .menu .heading.phones, .menu .top-info .operating_time .dropdown-menu .heading.btn, .top-info .operating_time .dropdown-menu .menu .heading.btn, .menu .top-info .operating_time .dropdown-menu .archive .archive-nav .heading.page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .menu .heading.page-numbers, .menu .archive .archive-nav .top-info .operating_time .dropdown-menu .heading.page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .menu .heading.page-numbers, .menu .top-info .operating_time .time .nav .nav-item a.heading, .top-info .operating_time .time .nav .nav-item .menu a.heading, .menu .menu-element ul li a.heading, .menu .hot .hot-element a.heading, .hot .hot-element .menu a.heading, .menu .archive .hot-element a.heading, .archive .hot-element .menu a.heading {
+        font-size: 1.5em; } }
+    @media (max-width: 480px) {
+      .menu a.heading, .menu .top-info .operating_time .dropdown-menu .dropdown-item .heading.geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .menu .heading.geo-link, .menu .top-info .operating_time .dropdown-menu .dropdown-item .heading.phones, .top-info .operating_time .dropdown-menu .dropdown-item .menu .heading.phones, .menu .top-info .operating_time .dropdown-menu .heading.btn, .top-info .operating_time .dropdown-menu .menu .heading.btn, .menu .top-info .operating_time .dropdown-menu .archive .archive-nav .heading.page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .menu .heading.page-numbers, .menu .archive .archive-nav .top-info .operating_time .dropdown-menu .heading.page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .menu .heading.page-numbers, .menu .top-info .operating_time .time .nav .nav-item a.heading, .top-info .operating_time .time .nav .nav-item .menu a.heading, .menu .menu-element ul li a.heading, .menu .hot .hot-element a.heading, .hot .hot-element .menu a.heading, .menu .archive .hot-element a.heading, .archive .hot-element .menu a.heading {
+        font-size: 1.66667em; } }
+  .menu div.col-12 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px; }
+  .menu .menu-element {
+    overflow: hidden;
+    position: relative; }
+    .menu .menu-element .text {
+      padding: 20px; }
+      @media (max-width: 1280px) {
+        .menu .menu-element .text {
+          padding: 20px; } }
+      @media (max-width: 1170px) {
+        .menu .menu-element .text {
+          padding: 20px; } }
+      @media (max-width: 1024px) {
+        .menu .menu-element .text {
+          padding: 20px; } }
+      @media (max-width: 640px) {
+        .menu .menu-element .text {
+          padding: 20px; } }
+      @media (max-width: 480px) {
+        .menu .menu-element .text {
+          padding: 20px; } }
+    @media all and (max-width: 479px) {
+      .menu .menu-element {
+        margin: 15px 10px;
+        min-height: 300px;
+        padding: 20px;
+        max-width: calc(100% - 20px); } }
+    @media all and (min-width: 480px) and (max-width: 767px) {
+      .menu .menu-element {
+        margin: 15px 20px;
+        min-height: 240px;
+        padding: 30px;
+        max-width: calc(50% - 40px);
+        flex: 0 0 calc(50% - 40px); } }
+    @media all and (min-width: 768px) {
+      .menu .menu-element {
+        margin: 15px 20px;
+        min-height: 300px;
+        padding: 40px;
+        max-width: calc(33.333333% - 40px); } }
+    .menu .menu-element .heading {
+      color: #000000;
+      text-transform: uppercase;
+      font-weight: 300;
+      font-family: 'HelveticaNeueCyr';
+      font-size: 1.5em; }
+      @media (max-width: 1170px) {
+        .menu .menu-element .heading {
+          font-size: 1.33333em; } }
+      @media (max-width: 1024px) {
+        .menu .menu-element .heading {
+          font-size: 1.25em; } }
+      @media (max-width: 640px) {
+        .menu .menu-element .heading {
+          font-size: 1.5em; } }
+      @media (max-width: 480px) {
+        .menu .menu-element .heading {
+          font-size: 1.66667em; } }
+      .menu .menu-element .heading span {
+        display: block;
+        clear: both;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-family: 'HelveticaNeueCyr';
+        font-size: 0.79167em; }
+        @media (max-width: 1170px) {
+          .menu .menu-element .heading span {
+            font-size: 0.79167em; } }
+        @media (max-width: 1024px) {
+          .menu .menu-element .heading span {
+            font-size: 0.75em; } }
+        @media (max-width: 640px) {
+          .menu .menu-element .heading span {
+            font-size: 1em; } }
+        @media (max-width: 480px) {
+          .menu .menu-element .heading span {
+            font-size: 1.16667em; } }
+        .menu .menu-element .heading span > i {
+          font-size: 0.79167em; }
+          @media (max-width: 1170px) {
+            .menu .menu-element .heading span > i {
+              font-size: 0.79167em; } }
+          @media (max-width: 1024px) {
+            .menu .menu-element .heading span > i {
+              font-size: 0.75em; } }
+          @media (max-width: 640px) {
+            .menu .menu-element .heading span > i {
+              font-size: 1em; } }
+          @media (max-width: 480px) {
+            .menu .menu-element .heading span > i {
+              font-size: 1.16667em; } }
+    .menu .menu-element ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      margin-top: 1rem; }
+      .menu .menu-element ul li .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .menu .menu-element ul li .geo-link, .menu .menu-element ul li .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item .menu .menu-element ul li .phones, .menu .menu-element ul li .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu .menu .menu-element ul li .btn, .menu .menu-element ul li .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .menu .menu-element ul li .page-numbers, .menu .menu-element ul li .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .menu .menu-element ul li .page-numbers, .menu .menu-element ul li .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .nav .nav-item .menu .menu-element ul li a, .menu .menu-element ul li a {
+        font-size: 0.91667em; }
+        @media (max-width: 1170px) {
+          .menu .menu-element ul li .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .menu .menu-element ul li .geo-link, .menu .menu-element ul li .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item .menu .menu-element ul li .phones, .menu .menu-element ul li .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu .menu .menu-element ul li .btn, .menu .menu-element ul li .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .menu .menu-element ul li .page-numbers, .menu .menu-element ul li .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .menu .menu-element ul li .page-numbers, .menu .menu-element ul li .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .nav .nav-item .menu .menu-element ul li a, .menu .menu-element ul li a {
+            font-size: 0.83333em; } }
+        @media (max-width: 1024px) {
+          .menu .menu-element ul li .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .menu .menu-element ul li .geo-link, .menu .menu-element ul li .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item .menu .menu-element ul li .phones, .menu .menu-element ul li .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu .menu .menu-element ul li .btn, .menu .menu-element ul li .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .menu .menu-element ul li .page-numbers, .menu .menu-element ul li .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .menu .menu-element ul li .page-numbers, .menu .menu-element ul li .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .nav .nav-item .menu .menu-element ul li a, .menu .menu-element ul li a {
+            font-size: 0.83333em; } }
+        @media (max-width: 640px) {
+          .menu .menu-element ul li .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .menu .menu-element ul li .geo-link, .menu .menu-element ul li .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item .menu .menu-element ul li .phones, .menu .menu-element ul li .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu .menu .menu-element ul li .btn, .menu .menu-element ul li .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .menu .menu-element ul li .page-numbers, .menu .menu-element ul li .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .menu .menu-element ul li .page-numbers, .menu .menu-element ul li .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .nav .nav-item .menu .menu-element ul li a, .menu .menu-element ul li a {
+            font-size: 0.91667em; } }
+        @media (max-width: 480px) {
+          .menu .menu-element ul li .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .menu .menu-element ul li .geo-link, .menu .menu-element ul li .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item .menu .menu-element ul li .phones, .menu .menu-element ul li .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu .menu .menu-element ul li .btn, .menu .menu-element ul li .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .menu .menu-element ul li .page-numbers, .menu .menu-element ul li .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .menu .menu-element ul li .page-numbers, .menu .menu-element ul li .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .nav .nav-item .menu .menu-element ul li a, .menu .menu-element ul li a {
+            font-size: 1.08333em; } }
+    .menu .menu-element .with-submenu:hover > .subsubmenu {
+      position: relative;
+      border: none;
+      background-color: transparent;
+      display: block; }
+      @media all and (max-width: 767px) {
+        .menu .menu-element .with-submenu:hover > .subsubmenu {
+          width: 60%;
+          float: right; } }
+      .menu .menu-element .with-submenu:hover > .subsubmenu .dropdown-item {
+        padding: 0;
+        padding-left: 10px;
+        white-space: pre-wrap;
+        width: 200px; }
+        @media all and (max-width: 767px) {
+          .menu .menu-element .with-submenu:hover > .subsubmenu .dropdown-item {
+            width: auto; } }
+        .menu .menu-element .with-submenu:hover > .subsubmenu .dropdown-item:hover {
+          background-color: transparent;
+          color: #e84c28; }
+        .menu .menu-element .with-submenu:hover > .subsubmenu .dropdown-item:focus {
+          background-color: transparent;
+          color: #e84c28; }
+    .menu .menu-element .overlay {
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: calc(100% - 40px);
+      height: calc(100% - 40px);
+      margin: 20px;
+      z-index: -1;
+      background-color: rgba(255, 255, 255, 0.75); }
+    .menu .menu-element .back {
+      display: block;
+      position: absolute;
+      z-index: -2;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: auto;
+      height: 100%;
+      max-width: none; }
+      @media all and (max-width: 480px) {
+        .menu .menu-element .back {
+          width: 100%;
+          height: auto; } }
+
+.hot {
+  border-bottom: 1px solid #f4f4f4; }
+  .hot .row {
+    margin-bottom: 50px; }
+  .hot .nav-tabs {
+    border: none; }
+  .hot .nav {
+    margin: 50px 0; }
+    .hot .nav .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .hot .nav .geo-link, .hot .nav .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item .hot .nav .phones, .hot .nav .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu .hot .nav .btn, .hot .nav .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .hot .nav .page-numbers, .hot .nav .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .hot .nav .page-numbers, .hot .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .hot .nav .nav-item a, .hot .nav .menu .menu-element ul li a, .menu .menu-element ul li .hot .nav a, .hot .nav a {
+      font-size: 1.16667em;
+      margin-right: 40px;
+      border: none; }
+      @media (max-width: 1170px) {
+        .hot .nav .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .hot .nav .geo-link, .hot .nav .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item .hot .nav .phones, .hot .nav .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu .hot .nav .btn, .hot .nav .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .hot .nav .page-numbers, .hot .nav .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .hot .nav .page-numbers, .hot .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .hot .nav .nav-item a, .hot .nav .menu .menu-element ul li a, .menu .menu-element ul li .hot .nav a, .hot .nav a {
+          font-size: 1em; } }
+      @media (max-width: 1024px) {
+        .hot .nav .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .hot .nav .geo-link, .hot .nav .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item .hot .nav .phones, .hot .nav .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu .hot .nav .btn, .hot .nav .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .hot .nav .page-numbers, .hot .nav .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .hot .nav .page-numbers, .hot .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .hot .nav .nav-item a, .hot .nav .menu .menu-element ul li a, .menu .menu-element ul li .hot .nav a, .hot .nav a {
+          font-size: 1.08333em; } }
+      @media (max-width: 640px) {
+        .hot .nav .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .hot .nav .geo-link, .hot .nav .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item .hot .nav .phones, .hot .nav .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu .hot .nav .btn, .hot .nav .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .hot .nav .page-numbers, .hot .nav .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .hot .nav .page-numbers, .hot .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .hot .nav .nav-item a, .hot .nav .menu .menu-element ul li a, .menu .menu-element ul li .hot .nav a, .hot .nav a {
+          font-size: 1.33333em; } }
+      @media (max-width: 480px) {
+        .hot .nav .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .hot .nav .geo-link, .hot .nav .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item .hot .nav .phones, .hot .nav .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu .hot .nav .btn, .hot .nav .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .hot .nav .page-numbers, .hot .nav .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .hot .nav .page-numbers, .hot .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .hot .nav .nav-item a, .hot .nav .menu .menu-element ul li a, .menu .menu-element ul li .hot .nav a, .hot .nav a {
+          font-size: 1.33333em; } }
+      .hot .nav .top-info .operating_time .dropdown-menu .dropdown-item .active.geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .hot .nav .active.geo-link, .hot .nav .top-info .operating_time .dropdown-menu .dropdown-item .active.phones, .top-info .operating_time .dropdown-menu .dropdown-item .hot .nav .active.phones, .hot .nav .top-info .operating_time .dropdown-menu .active.btn, .top-info .operating_time .dropdown-menu .hot .nav .active.btn, .hot .nav .top-info .operating_time .dropdown-menu .archive .archive-nav .active.page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .hot .nav .active.page-numbers, .hot .nav .archive .archive-nav .top-info .operating_time .dropdown-menu .active.page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .hot .nav .active.page-numbers, .hot .top-info .operating_time .time .nav .nav-item a.active, .top-info .operating_time .time .hot .nav .nav-item a.active, .hot .nav a.active {
+        color: #e84c28;
+        border-bottom: 1px solid #e84c28;
+        padding: 0.5rem 0; }
+  .hot .hot-element {
+    float: left;
+    text-align: center;
+    margin-bottom: 40px; }
+    .hot .hot-element .heading {
+      margin-top: 20px;
+      font-size: 0.91667em; }
+      @media (max-width: 1170px) {
+        .hot .hot-element .heading {
+          font-size: 0.83333em; } }
+      @media (max-width: 1024px) {
+        .hot .hot-element .heading {
+          font-size: 0.83333em; } }
+      @media (max-width: 640px) {
+        .hot .hot-element .heading {
+          font-size: 0.91667em; } }
+      @media (max-width: 480px) {
+        .hot .hot-element .heading {
+          font-size: 1.08333em; } }
+    .hot .hot-element .ingridients {
+      margin-top: 20px;
+      color: #adadad;
+      font-weight: 400;
+      font-family: 'HelveticaNeueCyr';
+      font-size: 0.79167em; }
+      @media (max-width: 1170px) {
+        .hot .hot-element .ingridients {
+          font-size: 0.79167em; } }
+      @media (max-width: 1024px) {
+        .hot .hot-element .ingridients {
+          font-size: 0.75em; } }
+      @media (max-width: 640px) {
+        .hot .hot-element .ingridients {
+          font-size: 1em; } }
+      @media (max-width: 480px) {
+        .hot .hot-element .ingridients {
+          font-size: 1.16667em; } }
+    .hot .hot-element .price {
+      margin-top: 20px;
+      color: #e84c28;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-family: 'HelveticaNeueCyr';
+      font-size: 0.91667em; }
+      @media (max-width: 1170px) {
+        .hot .hot-element .price {
+          font-size: 0.83333em; } }
+      @media (max-width: 1024px) {
+        .hot .hot-element .price {
+          font-size: 0.83333em; } }
+      @media (max-width: 640px) {
+        .hot .hot-element .price {
+          font-size: 0.91667em; } }
+      @media (max-width: 480px) {
+        .hot .hot-element .price {
+          font-size: 1.08333em; } }
+      .hot .hot-element .price > i {
+        font-size: 0.79167em; }
+        @media (max-width: 1170px) {
+          .hot .hot-element .price > i {
+            font-size: 0.79167em; } }
+        @media (max-width: 1024px) {
+          .hot .hot-element .price > i {
+            font-size: 0.75em; } }
+        @media (max-width: 640px) {
+          .hot .hot-element .price > i {
+            font-size: 1em; } }
+        @media (max-width: 480px) {
+          .hot .hot-element .price > i {
+            font-size: 1.16667em; } }
+    .hot .hot-element .owl-carousel .owl-item .info .btn, .owl-carousel .owl-item .info .hot .hot-element .btn, .hot .hot-element .btn, .hot .hot-element .archive .archive-nav .page-numbers, .archive .archive-nav .hot .hot-element .page-numbers {
+      margin-top: 20px;
+      color: #adadad;
+      border-color: #adadad;
+      font-size: 0.79167em;
+      padding: 0.75em 1.25em; }
+      @media (max-width: 1170px) {
+        .hot .hot-element .owl-carousel .owl-item .info .btn, .owl-carousel .owl-item .info .hot .hot-element .btn, .hot .hot-element .btn, .hot .hot-element .archive .archive-nav .page-numbers, .archive .archive-nav .hot .hot-element .page-numbers {
+          font-size: 0.79167em; } }
+      @media (max-width: 1024px) {
+        .hot .hot-element .owl-carousel .owl-item .info .btn, .owl-carousel .owl-item .info .hot .hot-element .btn, .hot .hot-element .btn, .hot .hot-element .archive .archive-nav .page-numbers, .archive .archive-nav .hot .hot-element .page-numbers {
+          font-size: 0.75em; } }
+      @media (max-width: 640px) {
+        .hot .hot-element .owl-carousel .owl-item .info .btn, .owl-carousel .owl-item .info .hot .hot-element .btn, .hot .hot-element .btn, .hot .hot-element .archive .archive-nav .page-numbers, .archive .archive-nav .hot .hot-element .page-numbers {
+          font-size: 1em; } }
+      @media (max-width: 480px) {
+        .hot .hot-element .owl-carousel .owl-item .info .btn, .owl-carousel .owl-item .info .hot .hot-element .btn, .hot .hot-element .btn, .hot .hot-element .archive .archive-nav .page-numbers, .archive .archive-nav .hot .hot-element .page-numbers {
+          font-size: 1.16667em; } }
+      .hot .hot-element .btn:hover, .hot .hot-element .archive .archive-nav .page-numbers:hover, .archive .archive-nav .hot .hot-element .page-numbers:hover {
+        color: #e84c28;
+        border-color: #e84c28; }
+
+.about {
+  border-bottom: 1px solid #f4f4f4; }
+  .about .row {
+    margin-bottom: 50px; }
+  .about .hot .hot-element .heading, .hot .hot-element .about .heading, .about .heading, .about .archive .hot-element .heading, .archive .hot-element .about .heading {
+    font-size: 1em;
+    margin: 50px 0 20px; }
+    @media (max-width: 1170px) {
+      .about .hot .hot-element .heading, .hot .hot-element .about .heading, .about .heading, .about .archive .hot-element .heading, .archive .hot-element .about .heading {
+        font-size: 0.91667em; } }
+    @media (max-width: 1024px) {
+      .about .hot .hot-element .heading, .hot .hot-element .about .heading, .about .heading, .about .archive .hot-element .heading, .archive .hot-element .about .heading {
+        font-size: 0.75em; } }
+    @media (max-width: 640px) {
+      .about .hot .hot-element .heading, .hot .hot-element .about .heading, .about .heading, .about .archive .hot-element .heading, .archive .hot-element .about .heading {
+        font-size: 1em; } }
+    @media (max-width: 480px) {
+      .about .hot .hot-element .heading, .hot .hot-element .about .heading, .about .heading, .about .archive .hot-element .heading, .archive .hot-element .about .heading {
+        font-size: 1.16667em; } }
+  .about p {
+    font-size: 0.79167em;
+    margin-bottom: 10px; }
+    @media (max-width: 1170px) {
+      .about p {
+        font-size: 0.79167em; } }
+    @media (max-width: 1024px) {
+      .about p {
+        font-size: 0.75em; } }
+    @media (max-width: 640px) {
+      .about p {
+        font-size: 1em; } }
+    @media (max-width: 480px) {
+      .about p {
+        font-size: 1.16667em; } }
+    .about .top-info .operating_time .dropdown-menu .dropdown-item p > .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .about p > .geo-link, .about .top-info .operating_time .dropdown-menu .dropdown-item p > .phones, .top-info .operating_time .dropdown-menu .dropdown-item .about p > .phones, .about .top-info .operating_time .dropdown-menu p > .btn, .top-info .operating_time .dropdown-menu .about p > .btn, .about .top-info .operating_time .dropdown-menu .archive .archive-nav p > .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .about p > .page-numbers, .about .archive .archive-nav .top-info .operating_time .dropdown-menu p > .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .about p > .page-numbers, .about .top-info .operating_time .time .nav .nav-item p > a, .top-info .operating_time .time .nav .nav-item .about p > a, .about .sorts .nav-item p > a, .sorts .nav-item .about p > a, .about .menu .menu-element ul li p > a, .menu .menu-element ul li .about p > a, .about .hot .nav p > a, .hot .nav .about p > a, .about p > a {
+      text-transform: none;
+      color: #e84c28; }
+      @media all and (max-width: 480px) {
+        .about .top-info .operating_time .dropdown-menu .dropdown-item p > .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .about p > .geo-link, .about .top-info .operating_time .dropdown-menu .dropdown-item p > .phones, .top-info .operating_time .dropdown-menu .dropdown-item .about p > .phones, .about .top-info .operating_time .dropdown-menu p > .btn, .top-info .operating_time .dropdown-menu .about p > .btn, .about .top-info .operating_time .dropdown-menu .archive .archive-nav p > .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .about p > .page-numbers, .about .archive .archive-nav .top-info .operating_time .dropdown-menu p > .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .about p > .page-numbers, .about .top-info .operating_time .time .nav .nav-item p > a, .top-info .operating_time .time .nav .nav-item .about p > a, .about .sorts .nav-item p > a, .sorts .nav-item .about p > a, .about .menu .menu-element ul li p > a, .menu .menu-element ul li .about p > a, .about .hot .nav p > a, .hot .nav .about p > a, .about p > a {
+          text-align: center; } }
+      .about .top-info .operating_time .dropdown-menu .dropdown-item p > .geo-link:hover, .top-info .operating_time .dropdown-menu .dropdown-item .about p > .geo-link:hover, .about .top-info .operating_time .dropdown-menu .dropdown-item p > .phones:hover, .top-info .operating_time .dropdown-menu .dropdown-item .about p > .phones:hover, .about .top-info .operating_time .dropdown-menu p > .btn:hover, .top-info .operating_time .dropdown-menu .about p > .btn:hover, .about .top-info .operating_time .dropdown-menu .archive .archive-nav p > .page-numbers:hover, .top-info .operating_time .dropdown-menu .archive .archive-nav .about p > .page-numbers:hover, .about .archive .archive-nav .top-info .operating_time .dropdown-menu p > .page-numbers:hover, .archive .archive-nav .top-info .operating_time .dropdown-menu .about p > .page-numbers:hover, .about .top-info .operating_time .time .nav .nav-item p > a:hover, .top-info .operating_time .time .nav .nav-item .about p > a:hover, .about .sorts .nav-item p > a:hover, .about .menu .menu-element ul li p > a:hover, .menu .menu-element ul li .about p > a:hover, .about .hot .nav p > a:hover, .about p > a:hover {
+        font-style: italic; }
+  .about .subheading {
+    text-transform: uppercase;
+    color: #adadad;
+    margin-bottom: 10px; }
+  .about ul {
+    list-style-type: none;
+    margin-bottom: 10px; }
+    .about ul li {
+      font-size: 0.79167em;
+      margin-bottom: 10px; }
+      @media (max-width: 1170px) {
+        .about ul li {
+          font-size: 0.79167em; } }
+      @media (max-width: 1024px) {
+        .about ul li {
+          font-size: 0.75em; } }
+      @media (max-width: 640px) {
+        .about ul li {
+          font-size: 1em; } }
+      @media (max-width: 480px) {
+        .about ul li {
+          font-size: 1.16667em; } }
+    .about ul li:before {
+      font-size: 0.79167em;
+      color: #e84c28;
+      content: "• ";
+      padding-right: 10px; }
+      @media (max-width: 1170px) {
+        .about ul li:before {
+          font-size: 0.79167em; } }
+      @media (max-width: 1024px) {
+        .about ul li:before {
+          font-size: 0.75em; } }
+      @media (max-width: 640px) {
+        .about ul li:before {
+          font-size: 1em; } }
+      @media (max-width: 480px) {
+        .about ul li:before {
+          font-size: 1.16667em; } }
+  .about ol {
+    counter-reset: numList;
+    list-style-type: none; }
+    .about ol li {
+      font-size: 0.79167em;
+      margin-bottom: 10px; }
+      @media (max-width: 1170px) {
+        .about ol li {
+          font-size: 0.79167em; } }
+      @media (max-width: 1024px) {
+        .about ol li {
+          font-size: 0.75em; } }
+      @media (max-width: 640px) {
+        .about ol li {
+          font-size: 1em; } }
+      @media (max-width: 480px) {
+        .about ol li {
+          font-size: 1.16667em; } }
+    .about ol li:before {
+      font-size: 0.79167em;
+      counter-increment: numList;
+      content: counter(numList);
+      float: left;
+      position: absolute;
+      left: 1rem;
+      text-align: center;
+      color: #fff;
+      line-height: 16px;
+      width: 16px;
+      height: 16px;
+      background: #e84c28;
+      -moz-border-radius: 999px;
+      border-radius: 999px; }
+      @media (max-width: 1170px) {
+        .about ol li:before {
+          font-size: 0.79167em; } }
+      @media (max-width: 1024px) {
+        .about ol li:before {
+          font-size: 0.75em; } }
+      @media (max-width: 640px) {
+        .about ol li:before {
+          font-size: 1em; } }
+      @media (max-width: 480px) {
+        .about ol li:before {
+          font-size: 1.16667em; } }
+
+.contacts {
+  border-bottom: 1px solid #f4f4f4; }
+  .contacts .row {
+    margin-bottom: 130px; }
+  .contacts .hot .hot-element .heading, .hot .hot-element .contacts .heading, .contacts .heading, .contacts .archive .hot-element .heading, .archive .hot-element .contacts .heading {
+    font-size: 1em;
+    margin: 50px 0 20px; }
+    @media (max-width: 1170px) {
+      .contacts .hot .hot-element .heading, .hot .hot-element .contacts .heading, .contacts .heading, .contacts .archive .hot-element .heading, .archive .hot-element .contacts .heading {
+        font-size: 0.91667em; } }
+    @media (max-width: 1024px) {
+      .contacts .hot .hot-element .heading, .hot .hot-element .contacts .heading, .contacts .heading, .contacts .archive .hot-element .heading, .archive .hot-element .contacts .heading {
+        font-size: 0.75em; } }
+    @media (max-width: 640px) {
+      .contacts .hot .hot-element .heading, .hot .hot-element .contacts .heading, .contacts .heading, .contacts .archive .hot-element .heading, .archive .hot-element .contacts .heading {
+        font-size: 1em; } }
+    @media (max-width: 480px) {
+      .contacts .hot .hot-element .heading, .hot .hot-element .contacts .heading, .contacts .heading, .contacts .archive .hot-element .heading, .archive .hot-element .contacts .heading {
+        font-size: 1.16667em; } }
+    @media all and (min-width: 992px) {
+      .contacts .hot .hot-element .heading, .hot .hot-element .contacts .heading, .contacts .heading, .contacts .archive .hot-element .heading, .archive .hot-element .contacts .heading {
+        white-space: pre; } }
+  .contacts ul {
+    margin-bottom: 10px;
+    list-style-type: none;
+    padding: 0; }
+    .contacts ul li {
+      color: #000000;
+      font-size: 0.91667em;
+      font-weight: 400;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 10px; }
+      @media (max-width: 1170px) {
+        .contacts ul li {
+          font-size: 0.83333em; } }
+      @media (max-width: 1024px) {
+        .contacts ul li {
+          font-size: 0.83333em; } }
+      @media (max-width: 640px) {
+        .contacts ul li {
+          font-size: 0.91667em; } }
+      @media (max-width: 480px) {
+        .contacts ul li {
+          font-size: 1.08333em; } }
+    .contacts ul li:before {
+      height: 0;
+      width: 0;
+      color: transparent;
+      content: ""; }
+  .contacts .info {
+    color: #adadad;
+    font-size: 0.79167em; }
+    @media (max-width: 1170px) {
+      .contacts .info {
+        font-size: 0.79167em; } }
+    @media (max-width: 1024px) {
+      .contacts .info {
+        font-size: 0.75em; } }
+    @media (max-width: 640px) {
+      .contacts .info {
+        font-size: 1em; } }
+    @media (max-width: 480px) {
+      .contacts .info {
+        font-size: 1.16667em; } }
+  .contacts .form-control {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'HelveticaNeueCyr';
+    color: #adadad;
+    background-color: transparent;
+    border: 1px solid #adadad;
+    border-radius: 0; }
+    .contacts .form-control:focus {
+      color: #e84c28;
+      border: 1px solid #e84c28; }
+  .contacts .top-info .operating_time .btn, .top-info .operating_time .contacts .btn, .contacts .owl-carousel .owl-item .info .btn, .owl-carousel .owl-item .info .contacts .btn, .contacts .hot .hot-element .btn, .hot .hot-element .contacts .btn, .contacts .btn, .contacts .archive .hot-element .btn, .archive .hot-element .contacts .btn, .contacts .archive .archive-nav .page-numbers, .archive .archive-nav .contacts .page-numbers, .contacts footer .down-menu .btn, footer .down-menu .contacts .btn, .contacts .item .quantity .btn, .item .quantity .contacts .btn {
+    margin-top: 20px;
+    color: #adadad;
+    border: 1px solid #adadad; }
+    .contacts .owl-carousel .owl-item .info .btn:hover, .owl-carousel .owl-item .info .contacts .btn:hover, .contacts .btn:hover, .contacts .archive .archive-nav .page-numbers:hover, .archive .archive-nav .contacts .page-numbers:hover {
+      color: #e84c28;
+      border: 1px solid #e84c28; }
+
+.archive .hot-element {
+  float: left;
+  text-align: center;
+  margin-bottom: 40px; }
+  .archive .hot-element .heading {
+    margin-top: 20px;
+    font-size: 0.91667em; }
+    @media (max-width: 1170px) {
+      .archive .hot-element .heading {
+        font-size: 0.83333em; } }
+    @media (max-width: 1024px) {
+      .archive .hot-element .heading {
+        font-size: 0.83333em; } }
+    @media (max-width: 640px) {
+      .archive .hot-element .heading {
+        font-size: 0.91667em; } }
+    @media (max-width: 480px) {
+      .archive .hot-element .heading {
+        font-size: 1.08333em; } }
+  .archive .hot-element .ingridients {
+    margin-top: 20px;
+    color: #adadad;
+    font-weight: 400;
+    font-family: 'HelveticaNeueCyr';
+    font-size: 0.79167em; }
+    @media (max-width: 1170px) {
+      .archive .hot-element .ingridients {
+        font-size: 0.79167em; } }
+    @media (max-width: 1024px) {
+      .archive .hot-element .ingridients {
+        font-size: 0.75em; } }
+    @media (max-width: 640px) {
+      .archive .hot-element .ingridients {
+        font-size: 1em; } }
+    @media (max-width: 480px) {
+      .archive .hot-element .ingridients {
+        font-size: 1.16667em; } }
+  .archive .hot-element .price {
+    margin-top: 20px;
+    color: #e84c28;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'HelveticaNeueCyr';
+    font-size: 0.91667em;
+    padding: 0; }
+    @media (max-width: 1170px) {
+      .archive .hot-element .price {
+        font-size: 0.83333em; } }
+    @media (max-width: 1024px) {
+      .archive .hot-element .price {
+        font-size: 0.83333em; } }
+    @media (max-width: 640px) {
+      .archive .hot-element .price {
+        font-size: 0.91667em; } }
+    @media (max-width: 480px) {
+      .archive .hot-element .price {
+        font-size: 1.08333em; } }
+    .archive .hot-element .price > i {
+      font-size: 0.79167em; }
+      @media (max-width: 1170px) {
+        .archive .hot-element .price > i {
+          font-size: 0.79167em; } }
+      @media (max-width: 1024px) {
+        .archive .hot-element .price > i {
+          font-size: 0.75em; } }
+      @media (max-width: 640px) {
+        .archive .hot-element .price > i {
+          font-size: 1em; } }
+      @media (max-width: 480px) {
+        .archive .hot-element .price > i {
+          font-size: 1.16667em; } }
+  .archive .hot-element .owl-carousel .owl-item .info .btn, .owl-carousel .owl-item .info .archive .hot-element .btn, .archive .hot-element .btn, .archive .hot-element .archive-nav .page-numbers, .archive .archive-nav .hot-element .page-numbers {
+    margin-top: 20px;
+    color: #adadad;
+    border-color: #adadad;
+    font-size: 0.79167em;
+    padding: 0.75em 1.25em; }
+    @media (max-width: 1170px) {
+      .archive .hot-element .owl-carousel .owl-item .info .btn, .owl-carousel .owl-item .info .archive .hot-element .btn, .archive .hot-element .btn, .archive .hot-element .archive-nav .page-numbers, .archive .archive-nav .hot-element .page-numbers {
+        font-size: 0.79167em; } }
+    @media (max-width: 1024px) {
+      .archive .hot-element .owl-carousel .owl-item .info .btn, .owl-carousel .owl-item .info .archive .hot-element .btn, .archive .hot-element .btn, .archive .hot-element .archive-nav .page-numbers, .archive .archive-nav .hot-element .page-numbers {
+        font-size: 0.75em; } }
+    @media (max-width: 640px) {
+      .archive .hot-element .owl-carousel .owl-item .info .btn, .owl-carousel .owl-item .info .archive .hot-element .btn, .archive .hot-element .btn, .archive .hot-element .archive-nav .page-numbers, .archive .archive-nav .hot-element .page-numbers {
+        font-size: 1em; } }
+    @media (max-width: 480px) {
+      .archive .hot-element .owl-carousel .owl-item .info .btn, .owl-carousel .owl-item .info .archive .hot-element .btn, .archive .hot-element .btn, .archive .hot-element .archive-nav .page-numbers, .archive .archive-nav .hot-element .page-numbers {
+        font-size: 1.16667em; } }
+    .archive .hot-element .btn:hover, .archive .hot-element .archive-nav .page-numbers:hover, .archive .archive-nav .hot-element .page-numbers:hover {
+      color: #e84c28;
+      border-color: #e84c28; }
+.archive .archive-nav .paginate {
+  width: 100%; }
+.archive .archive-nav .links {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; }
+.archive .archive-nav .page-numbers {
+  margin-top: 20px;
+  color: #adadad;
+  border-color: #adadad;
+  font-size: 0.79167em;
+  padding: 0.75em;
+  display: block;
+  position: relative;
+  float: left;
+  width: 36px;
+  height: 36px;
+  margin-right: 5px; }
+  @media (max-width: 1170px) {
+    .archive .archive-nav .page-numbers {
+      font-size: 0.79167em; } }
+  @media (max-width: 1024px) {
+    .archive .archive-nav .page-numbers {
+      font-size: 0.75em; } }
+  @media (max-width: 640px) {
+    .archive .archive-nav .page-numbers {
+      font-size: 1em; } }
+  @media (max-width: 480px) {
+    .archive .archive-nav .page-numbers {
+      font-size: 1.16667em; } }
+  .archive .archive-nav .page-numbers:hover {
+    color: #e84c28;
+    border-color: #e84c28; }
+.archive .archive-nav .current {
+  color: #e84c28;
+  border-color: #e84c28; }
+
+footer .down-menu {
+  border-bottom: 1px solid #f4f4f4; }
+  footer .down-menu .row {
+    margin: 50px 0; }
+  @media all and (max-width: 992px) {
+    footer .down-menu .col-4 {
+      padding: 0 5px; } }
+  footer .down-menu .col-xs-6 {
+    border-right: 1px solid #f4f4f4; }
+  footer .down-menu ul {
+    margin-bottom: 10px;
+    list-style-type: none;
+    padding: 0; }
+    @media all and (max-width: 767px) {
+      footer .down-menu ul {
+        column-count: 2; } }
+    footer .down-menu ul li a, footer .down-menu ul li .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item footer .down-menu ul li .geo-link, footer .down-menu ul li .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item footer .down-menu ul li .phones, footer .down-menu ul li .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu footer .down-menu ul li .btn, footer .down-menu ul li .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav footer .down-menu ul li .page-numbers, footer .down-menu ul li .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu footer .down-menu ul li .page-numbers, footer .down-menu ul li .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .nav .nav-item footer .down-menu ul li a, footer .down-menu ul li .sorts .nav-item a, .sorts .nav-item footer .down-menu ul li a, footer .down-menu .menu .menu-element ul li a, .menu .menu-element footer .down-menu ul li a, footer .down-menu ul li .hot .nav a, .hot .nav footer .down-menu ul li a {
+      color: #e84c28;
+      font-size: 0.79167em;
+      font-weight: 400;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 10px;
+      font-style: italic; }
+      @media (max-width: 1170px) {
+        footer .down-menu ul li a, footer .down-menu ul li .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item footer .down-menu ul li .geo-link, footer .down-menu ul li .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item footer .down-menu ul li .phones, footer .down-menu ul li .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu footer .down-menu ul li .btn, footer .down-menu ul li .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav footer .down-menu ul li .page-numbers, footer .down-menu ul li .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu footer .down-menu ul li .page-numbers, footer .down-menu ul li .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .nav .nav-item footer .down-menu ul li a, footer .down-menu ul li .sorts .nav-item a, .sorts .nav-item footer .down-menu ul li a, footer .down-menu .menu .menu-element ul li a, .menu .menu-element footer .down-menu ul li a, footer .down-menu ul li .hot .nav a, .hot .nav footer .down-menu ul li a {
+          font-size: 0.79167em; } }
+      @media (max-width: 1024px) {
+        footer .down-menu ul li a, footer .down-menu ul li .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item footer .down-menu ul li .geo-link, footer .down-menu ul li .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item footer .down-menu ul li .phones, footer .down-menu ul li .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu footer .down-menu ul li .btn, footer .down-menu ul li .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav footer .down-menu ul li .page-numbers, footer .down-menu ul li .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu footer .down-menu ul li .page-numbers, footer .down-menu ul li .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .nav .nav-item footer .down-menu ul li a, footer .down-menu ul li .sorts .nav-item a, .sorts .nav-item footer .down-menu ul li a, footer .down-menu .menu .menu-element ul li a, .menu .menu-element footer .down-menu ul li a, footer .down-menu ul li .hot .nav a, .hot .nav footer .down-menu ul li a {
+          font-size: 0.75em; } }
+      @media (max-width: 640px) {
+        footer .down-menu ul li a, footer .down-menu ul li .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item footer .down-menu ul li .geo-link, footer .down-menu ul li .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item footer .down-menu ul li .phones, footer .down-menu ul li .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu footer .down-menu ul li .btn, footer .down-menu ul li .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav footer .down-menu ul li .page-numbers, footer .down-menu ul li .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu footer .down-menu ul li .page-numbers, footer .down-menu ul li .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .nav .nav-item footer .down-menu ul li a, footer .down-menu ul li .sorts .nav-item a, .sorts .nav-item footer .down-menu ul li a, footer .down-menu .menu .menu-element ul li a, .menu .menu-element footer .down-menu ul li a, footer .down-menu ul li .hot .nav a, .hot .nav footer .down-menu ul li a {
+          font-size: 1em; } }
+      @media (max-width: 480px) {
+        footer .down-menu ul li a, footer .down-menu ul li .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item footer .down-menu ul li .geo-link, footer .down-menu ul li .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item footer .down-menu ul li .phones, footer .down-menu ul li .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu footer .down-menu ul li .btn, footer .down-menu ul li .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav footer .down-menu ul li .page-numbers, footer .down-menu ul li .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu footer .down-menu ul li .page-numbers, footer .down-menu ul li .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .nav .nav-item footer .down-menu ul li a, footer .down-menu ul li .sorts .nav-item a, .sorts .nav-item footer .down-menu ul li a, footer .down-menu .menu .menu-element ul li a, .menu .menu-element footer .down-menu ul li a, footer .down-menu ul li .hot .nav a, .hot .nav footer .down-menu ul li a {
+          font-size: 1.16667em; } }
+    footer .down-menu ul li:before {
+      height: 0;
+      width: 0;
+      color: transparent;
+      content: ""; }
+  footer .down-menu .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    @media all and (min-width: 992px) {
+      footer .down-menu .nav {
+        width: 50%; } }
+  footer .down-menu .nav-item a, footer .down-menu .nav-item .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item footer .down-menu .nav-item .geo-link, footer .down-menu .nav-item .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item footer .down-menu .nav-item .phones, footer .down-menu .nav-item .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu footer .down-menu .nav-item .btn, footer .down-menu .nav-item .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav footer .down-menu .nav-item .page-numbers, footer .down-menu .nav-item .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu footer .down-menu .nav-item .page-numbers, footer .down-menu .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .nav footer .down-menu .nav-item a, footer .down-menu .nav-item .menu .menu-element ul li a, .menu .menu-element ul li footer .down-menu .nav-item a {
+    color: #adadad;
+    font-size: 1.41667em; }
+    @media (max-width: 1170px) {
+      footer .down-menu .nav-item a, footer .down-menu .nav-item .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item footer .down-menu .nav-item .geo-link, footer .down-menu .nav-item .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item footer .down-menu .nav-item .phones, footer .down-menu .nav-item .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu footer .down-menu .nav-item .btn, footer .down-menu .nav-item .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav footer .down-menu .nav-item .page-numbers, footer .down-menu .nav-item .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu footer .down-menu .nav-item .page-numbers, footer .down-menu .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .nav footer .down-menu .nav-item a, footer .down-menu .nav-item .menu .menu-element ul li a, .menu .menu-element ul li footer .down-menu .nav-item a {
+        font-size: 1.25em; } }
+    @media (max-width: 1024px) {
+      footer .down-menu .nav-item a, footer .down-menu .nav-item .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item footer .down-menu .nav-item .geo-link, footer .down-menu .nav-item .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item footer .down-menu .nav-item .phones, footer .down-menu .nav-item .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu footer .down-menu .nav-item .btn, footer .down-menu .nav-item .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav footer .down-menu .nav-item .page-numbers, footer .down-menu .nav-item .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu footer .down-menu .nav-item .page-numbers, footer .down-menu .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .nav footer .down-menu .nav-item a, footer .down-menu .nav-item .menu .menu-element ul li a, .menu .menu-element ul li footer .down-menu .nav-item a {
+        font-size: 1.33333em; } }
+    @media (max-width: 640px) {
+      footer .down-menu .nav-item a, footer .down-menu .nav-item .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item footer .down-menu .nav-item .geo-link, footer .down-menu .nav-item .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item footer .down-menu .nav-item .phones, footer .down-menu .nav-item .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu footer .down-menu .nav-item .btn, footer .down-menu .nav-item .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav footer .down-menu .nav-item .page-numbers, footer .down-menu .nav-item .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu footer .down-menu .nav-item .page-numbers, footer .down-menu .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .nav footer .down-menu .nav-item a, footer .down-menu .nav-item .menu .menu-element ul li a, .menu .menu-element ul li footer .down-menu .nav-item a {
+        font-size: 1.33333em; } }
+    @media (max-width: 480px) {
+      footer .down-menu .nav-item a, footer .down-menu .nav-item .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item footer .down-menu .nav-item .geo-link, footer .down-menu .nav-item .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item footer .down-menu .nav-item .phones, footer .down-menu .nav-item .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu footer .down-menu .nav-item .btn, footer .down-menu .nav-item .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav footer .down-menu .nav-item .page-numbers, footer .down-menu .nav-item .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu footer .down-menu .nav-item .page-numbers, footer .down-menu .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .nav footer .down-menu .nav-item a, footer .down-menu .nav-item .menu .menu-element ul li a, .menu .menu-element ul li footer .down-menu .nav-item a {
+        font-size: 1.41667em; } }
+    footer .down-menu .nav-item a:hover, footer .down-menu .nav-item .top-info .operating_time .dropdown-menu .dropdown-item .geo-link:hover, .top-info .operating_time .dropdown-menu .dropdown-item footer .down-menu .nav-item .geo-link:hover, footer .down-menu .nav-item .top-info .operating_time .dropdown-menu .dropdown-item .phones:hover, .top-info .operating_time .dropdown-menu .dropdown-item footer .down-menu .nav-item .phones:hover, footer .down-menu .nav-item .top-info .operating_time .dropdown-menu .btn:hover, .top-info .operating_time .dropdown-menu footer .down-menu .nav-item .btn:hover, footer .down-menu .nav-item .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers:hover, .top-info .operating_time .dropdown-menu .archive .archive-nav footer .down-menu .nav-item .page-numbers:hover, footer .down-menu .nav-item .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers:hover, .archive .archive-nav .top-info .operating_time .dropdown-menu footer .down-menu .nav-item .page-numbers:hover, footer .down-menu .top-info .operating_time .time .nav .nav-item a:hover, .top-info .operating_time .time .nav footer .down-menu .nav-item a:hover {
+      color: #e84c28; }
+  footer .down-menu .form-control {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'HelveticaNeueCyr';
+    color: #adadad;
+    background-color: transparent;
+    border: 1px solid #adadad;
+    border-radius: 0; }
+    footer .down-menu .form-control:focus {
+      color: #e84c28;
+      border: 1px solid #e84c28; }
+  footer .down-menu .top-info .operating_time .btn, .top-info .operating_time footer .down-menu .btn, footer .down-menu .owl-carousel .owl-item .info .btn, .owl-carousel .owl-item .info footer .down-menu .btn, footer .down-menu .hot .hot-element .btn, .hot .hot-element footer .down-menu .btn, footer .down-menu .archive .hot-element .btn, .archive .hot-element footer .down-menu .btn, footer .down-menu .archive .archive-nav .page-numbers, .archive .archive-nav footer .down-menu .page-numbers, footer .down-menu .btn, footer .down-menu .item .quantity .btn, .item .quantity footer .down-menu .btn {
+    margin-top: 20px;
+    color: #adadad;
+    border: 1px solid #adadad; }
+    footer .down-menu .owl-carousel .owl-item .info .btn:hover, .owl-carousel .owl-item .info footer .down-menu .btn:hover, footer .down-menu .archive .archive-nav .page-numbers:hover, .archive .archive-nav footer .down-menu .page-numbers:hover, footer .down-menu .btn:hover {
+      color: #e84c28;
+      border: 1px solid #e84c28; }
+  footer .down-menu label {
+    color: #adadad;
+    font-size: 0.79167em; }
+    @media (max-width: 1170px) {
+      footer .down-menu label {
+        font-size: 0.79167em; } }
+    @media (max-width: 1024px) {
+      footer .down-menu label {
+        font-size: 0.75em; } }
+    @media (max-width: 640px) {
+      footer .down-menu label {
+        font-size: 1em; } }
+    @media (max-width: 480px) {
+      footer .down-menu label {
+        font-size: 1.16667em; } }
+footer .copyright {
+  background-color: #f4f4f4;
+  padding: 25px 0; }
+  footer .copyright p {
+    color: #adadad;
+    font-size: 0.79167em;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    font-style: italic; }
+    @media (max-width: 1170px) {
+      footer .copyright p {
+        font-size: 0.79167em; } }
+    @media (max-width: 1024px) {
+      footer .copyright p {
+        font-size: 0.75em; } }
+    @media (max-width: 640px) {
+      footer .copyright p {
+        font-size: 1em; } }
+    @media (max-width: 480px) {
+      footer .copyright p {
+        font-size: 1.16667em; } }
+    footer .copyright p a, footer .copyright p .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item footer .copyright p .geo-link, footer .copyright p .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item footer .copyright p .phones, footer .copyright p .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu footer .copyright p .btn, footer .copyright p .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav footer .copyright p .page-numbers, footer .copyright p .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu footer .copyright p .page-numbers, footer .copyright p .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .nav .nav-item footer .copyright p a, footer .copyright p .sorts .nav-item a, .sorts .nav-item footer .copyright p a, footer .copyright p .menu .menu-element ul li a, .menu .menu-element ul li footer .copyright p a, footer .copyright p .hot .nav a, .hot .nav footer .copyright p a {
+      color: #e84c28;
+      font-weight: 400;
+      margin: 0;
+      padding: 0;
+      font-style: italic;
+      text-transform: none !important; }
+  footer .copyright .nav {
+    align-items: center; }
+    @media all and (max-width: 992px) {
+      footer .copyright .nav {
+        justify-content: center;
+        margin: 1rem 0; } }
+  footer .copyright .promo {
+    font-size: 0.79167em; }
+    @media (max-width: 1170px) {
+      footer .copyright .promo {
+        font-size: 0.79167em; } }
+    @media (max-width: 1024px) {
+      footer .copyright .promo {
+        font-size: 0.75em; } }
+    @media (max-width: 640px) {
+      footer .copyright .promo {
+        font-size: 1em; } }
+    @media (max-width: 480px) {
+      footer .copyright .promo {
+        font-size: 1.16667em; } }
+    @media all and (max-width: 600px) {
+      footer .copyright .promo img {
+        width: 48px; } }
+    footer .copyright .promo a, footer .copyright .promo .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item footer .copyright .promo .geo-link, footer .copyright .promo .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item footer .copyright .promo .phones, footer .copyright .promo .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu footer .copyright .promo .btn, footer .copyright .promo .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav footer .copyright .promo .page-numbers, footer .copyright .promo .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu footer .copyright .promo .page-numbers, footer .copyright .promo .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .nav .nav-item footer .copyright .promo a, footer .copyright .promo .menu .menu-element ul li a, .menu .menu-element ul li footer .copyright .promo a {
+      width: 100%;
+      display: block;
+      position: relative;
+      float: left;
+      text-transform: none !important;
+      clear: both; }
+
+.breadcrumb {
+  margin: 20px 0;
+  background-color: transparent; }
+  .breadcrumb a, .breadcrumb .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .breadcrumb .geo-link, .breadcrumb .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item .breadcrumb .phones, .breadcrumb .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu .breadcrumb .btn, .breadcrumb .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .breadcrumb .page-numbers, .breadcrumb .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .breadcrumb .page-numbers, .breadcrumb .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .nav .nav-item .breadcrumb a, .breadcrumb .sorts .nav-item a, .sorts .nav-item .breadcrumb a, .breadcrumb .menu .menu-element ul li a, .menu .menu-element ul li .breadcrumb a, .breadcrumb .hot .nav a, .hot .nav .breadcrumb a, .breadcrumb .about p > a, .about .breadcrumb p > a {
+    font-style: italic;
+    text-transform: none;
+    font-family: 'HelveticaNeueCyr';
+    font-size: 0.79167em;
+    font-weight: 400;
+    color: #adadad;
+    font-style: italic; }
+    @media (max-width: 1170px) {
+      .breadcrumb a, .breadcrumb .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .breadcrumb .geo-link, .breadcrumb .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item .breadcrumb .phones, .breadcrumb .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu .breadcrumb .btn, .breadcrumb .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .breadcrumb .page-numbers, .breadcrumb .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .breadcrumb .page-numbers, .breadcrumb .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .nav .nav-item .breadcrumb a, .breadcrumb .sorts .nav-item a, .sorts .nav-item .breadcrumb a, .breadcrumb .menu .menu-element ul li a, .menu .menu-element ul li .breadcrumb a, .breadcrumb .hot .nav a, .hot .nav .breadcrumb a, .breadcrumb .about p > a, .about .breadcrumb p > a {
+        font-size: 0.79167em; } }
+    @media (max-width: 1024px) {
+      .breadcrumb a, .breadcrumb .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .breadcrumb .geo-link, .breadcrumb .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item .breadcrumb .phones, .breadcrumb .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu .breadcrumb .btn, .breadcrumb .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .breadcrumb .page-numbers, .breadcrumb .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .breadcrumb .page-numbers, .breadcrumb .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .nav .nav-item .breadcrumb a, .breadcrumb .sorts .nav-item a, .sorts .nav-item .breadcrumb a, .breadcrumb .menu .menu-element ul li a, .menu .menu-element ul li .breadcrumb a, .breadcrumb .hot .nav a, .hot .nav .breadcrumb a, .breadcrumb .about p > a, .about .breadcrumb p > a {
+        font-size: 0.75em; } }
+    @media (max-width: 640px) {
+      .breadcrumb a, .breadcrumb .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .breadcrumb .geo-link, .breadcrumb .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item .breadcrumb .phones, .breadcrumb .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu .breadcrumb .btn, .breadcrumb .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .breadcrumb .page-numbers, .breadcrumb .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .breadcrumb .page-numbers, .breadcrumb .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .nav .nav-item .breadcrumb a, .breadcrumb .sorts .nav-item a, .sorts .nav-item .breadcrumb a, .breadcrumb .menu .menu-element ul li a, .menu .menu-element ul li .breadcrumb a, .breadcrumb .hot .nav a, .hot .nav .breadcrumb a, .breadcrumb .about p > a, .about .breadcrumb p > a {
+        font-size: 1em; } }
+    @media (max-width: 480px) {
+      .breadcrumb a, .breadcrumb .top-info .operating_time .dropdown-menu .dropdown-item .geo-link, .top-info .operating_time .dropdown-menu .dropdown-item .breadcrumb .geo-link, .breadcrumb .top-info .operating_time .dropdown-menu .dropdown-item .phones, .top-info .operating_time .dropdown-menu .dropdown-item .breadcrumb .phones, .breadcrumb .top-info .operating_time .dropdown-menu .btn, .top-info .operating_time .dropdown-menu .breadcrumb .btn, .breadcrumb .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers, .top-info .operating_time .dropdown-menu .archive .archive-nav .breadcrumb .page-numbers, .breadcrumb .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers, .archive .archive-nav .top-info .operating_time .dropdown-menu .breadcrumb .page-numbers, .breadcrumb .top-info .operating_time .time .nav .nav-item a, .top-info .operating_time .time .nav .nav-item .breadcrumb a, .breadcrumb .sorts .nav-item a, .sorts .nav-item .breadcrumb a, .breadcrumb .menu .menu-element ul li a, .menu .menu-element ul li .breadcrumb a, .breadcrumb .hot .nav a, .hot .nav .breadcrumb a, .breadcrumb .about p > a, .about .breadcrumb p > a {
+        font-size: 1.16667em; } }
+    .breadcrumb a:hover, .breadcrumb .top-info .operating_time .dropdown-menu .dropdown-item .geo-link:hover, .top-info .operating_time .dropdown-menu .dropdown-item .breadcrumb .geo-link:hover, .breadcrumb .top-info .operating_time .dropdown-menu .dropdown-item .phones:hover, .top-info .operating_time .dropdown-menu .dropdown-item .breadcrumb .phones:hover, .breadcrumb .top-info .operating_time .dropdown-menu .btn:hover, .top-info .operating_time .dropdown-menu .breadcrumb .btn:hover, .breadcrumb .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers:hover, .top-info .operating_time .dropdown-menu .archive .archive-nav .breadcrumb .page-numbers:hover, .breadcrumb .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers:hover, .archive .archive-nav .top-info .operating_time .dropdown-menu .breadcrumb .page-numbers:hover, .breadcrumb .top-info .operating_time .time .nav .nav-item a:hover, .top-info .operating_time .time .nav .nav-item .breadcrumb a:hover, .breadcrumb .menu .menu-element ul li a:hover, .menu .menu-element ul li .breadcrumb a:hover {
+      color: #e84c28; }
+  .breadcrumb .active {
+    font-style: italic;
+    font-family: 'HelveticaNeueCyr';
+    font-size: 0.79167em;
+    color: #e84c28; }
+    @media (max-width: 1170px) {
+      .breadcrumb .active {
+        font-size: 0.79167em; } }
+    @media (max-width: 1024px) {
+      .breadcrumb .active {
+        font-size: 0.75em; } }
+    @media (max-width: 640px) {
+      .breadcrumb .active {
+        font-size: 1em; } }
+    @media (max-width: 480px) {
+      .breadcrumb .active {
+        font-size: 1.16667em; } }
+
+.item .title h1 {
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: 'HelveticaNeueCyr';
+  font-size: 1.5em;
+  margin: 20px 0 50px;
+  color: #000000; }
+  @media (max-width: 1170px) {
+    .item .title h1 {
+      font-size: 1.33333em; } }
+  @media (max-width: 1024px) {
+    .item .title h1 {
+      font-size: 1.25em; } }
+  @media (max-width: 640px) {
+    .item .title h1 {
+      font-size: 1.5em; } }
+  @media (max-width: 480px) {
+    .item .title h1 {
+      font-size: 1.66667em; } }
+.item .ingridients .text .subheader h2 {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: 'HelveticaNeueCyr';
+  font-size: 0.91667em;
+  margin: 0 0 20px;
+  color: #000000; }
+  @media (max-width: 1170px) {
+    .item .ingridients .text .subheader h2 {
+      font-size: 0.83333em; } }
+  @media (max-width: 1024px) {
+    .item .ingridients .text .subheader h2 {
+      font-size: 0.83333em; } }
+  @media (max-width: 640px) {
+    .item .ingridients .text .subheader h2 {
+      font-size: 0.91667em; } }
+  @media (max-width: 480px) {
+    .item .ingridients .text .subheader h2 {
+      font-size: 1.08333em; } }
+.item .ingridients .text p {
+  font-weight: 400;
+  font-family: 'HelveticaNeueCyr';
+  font-size: 0.79167em;
+  margin: 0 0 20px;
+  color: #adadad; }
+  @media (max-width: 1170px) {
+    .item .ingridients .text p {
+      font-size: 0.79167em; } }
+  @media (max-width: 1024px) {
+    .item .ingridients .text p {
+      font-size: 0.75em; } }
+  @media (max-width: 640px) {
+    .item .ingridients .text p {
+      font-size: 1em; } }
+  @media (max-width: 480px) {
+    .item .ingridients .text p {
+      font-size: 1.16667em; } }
+.item .quantity {
+  border: 1px solid #adadad;
+  padding: 20px;
+  display: block;
+  position: relative;
+  text-align: center; }
+  .item .quantity .conditions {
+    border-bottom: 1px solid #adadad;
+    text-align: center;
+    width: 70%;
+    max-width: 100%;
+    margin: 0 auto;
+    float: none;
+    display: block;
+    position: relative;
+    margin-bottom: 30px; }
+    .item .quantity .conditions p {
+      font-weight: bold;
+      font-family: 'HelveticaNeueCyr';
+      font-size: 1.33333em;
+      margin: 0 0 15px;
+      color: #adadad; }
+      @media (max-width: 1170px) {
+        .item .quantity .conditions p {
+          font-size: 1.16667em; } }
+      @media (max-width: 1024px) {
+        .item .quantity .conditions p {
+          font-size: 1.25em; } }
+      @media (max-width: 640px) {
+        .item .quantity .conditions p {
+          font-size: 1.33333em; } }
+      @media (max-width: 480px) {
+        .item .quantity .conditions p {
+          font-size: 1.5em; } }
+  .item .quantity .prices {
+    display: block;
+    position: relative;
+    margin-bottom: 36px; }
+    @media all and (max-width: 480px) {
+      .item .quantity .prices {
+        margin-bottom: 36px; } }
+    .item .quantity .prices .row {
+      justify-content: center;
+      flex-direction: row;
+      height: 36px;
+      line-height: 36px; }
+    .item .quantity .prices .price {
+      position: relative;
+      display: block;
+      font-weight: bold;
+      font-family: 'HelveticaNeueCyr';
+      font-size: 1.83333em;
+      vertical-align: middle;
+      margin: 0 !important;
+      color: #e84c28;
+      text-align: left;
+      height: 36px;
+      line-height: 36px; }
+      @media (max-width: 1170px) {
+        .item .quantity .prices .price {
+          font-size: 1.5em; } }
+      @media (max-width: 1024px) {
+        .item .quantity .prices .price {
+          font-size: 1.41667em; } }
+      @media (max-width: 640px) {
+        .item .quantity .prices .price {
+          font-size: 1.83333em; } }
+      @media (max-width: 480px) {
+        .item .quantity .prices .price {
+          font-size: 2em; } }
+      @media all and (max-width: 600px) {
+        .item .quantity .prices .price {
+          text-align: center; } }
+    .item .quantity .prices .form-group {
+      display: flex;
+      flex-direction: row; }
+    .item .quantity .prices [type="number"] {
+      width: calc(100% - 72px);
+      height: 36px;
+      line-height: 36px;
+      font-size: 1.16667em;
+      -moz-appearance: textfield; }
+      @media (max-width: 1170px) {
+        .item .quantity .prices [type="number"] {
+          font-size: 1em; } }
+      @media (max-width: 1024px) {
+        .item .quantity .prices [type="number"] {
+          font-size: 1.08333em; } }
+      @media (max-width: 640px) {
+        .item .quantity .prices [type="number"] {
+          font-size: 1.33333em; } }
+      @media (max-width: 480px) {
+        .item .quantity .prices [type="number"] {
+          font-size: 1.33333em; } }
+    .item .quantity .prices input::-webkit-outer-spin-button,
+    .item .quantity .prices input::-webkit-inner-spin-button {
+      /* display: none; <- Crashes Chrome on hover */
+      -webkit-appearance: none;
+      margin: 0;
+      /* <-- Apparently some margin are still there even though it's hidden */ }
+    .item .quantity .prices .num-minus, .item .quantity .prices .num-plus {
+      height: 36px;
+      width: 36px;
+      border: 1px solid #adadad;
+      text-align: center;
+      margin: 0; }
+      .item .quantity .prices .num-minus i, .item .quantity .prices .num-plus i {
+        margin: 2px;
+        font-size: 32px;
+        padding: 0 7px;
+        color: #adadad; }
+      .item .quantity .prices .num-minus:hover, .item .quantity .prices .num-plus:hover {
+        border-color: #e84c28; }
+        .item .quantity .prices .num-minus:hover > i, .item .quantity .prices .num-plus:hover > i {
+          color: #e84c28; }
+  .item .quantity .owl-carousel .owl-item .info .btn, .owl-carousel .owl-item .info .item .quantity .btn, .item .quantity .archive .archive-nav .page-numbers, .archive .archive-nav .item .quantity .page-numbers, .item .quantity .btn {
+    font-style: normal;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 0.79167em;
+    padding: 1em 2.5em;
+    color: #e84c28;
+    border-color: #e84c28; }
+    @media (max-width: 1170px) {
+      .item .quantity .owl-carousel .owl-item .info .btn, .owl-carousel .owl-item .info .item .quantity .btn, .item .quantity .archive .archive-nav .page-numbers, .archive .archive-nav .item .quantity .page-numbers, .item .quantity .btn {
+        font-size: 0.79167em; } }
+    @media (max-width: 1024px) {
+      .item .quantity .owl-carousel .owl-item .info .btn, .owl-carousel .owl-item .info .item .quantity .btn, .item .quantity .archive .archive-nav .page-numbers, .archive .archive-nav .item .quantity .page-numbers, .item .quantity .btn {
+        font-size: 0.75em; } }
+    @media (max-width: 640px) {
+      .item .quantity .owl-carousel .owl-item .info .btn, .owl-carousel .owl-item .info .item .quantity .btn, .item .quantity .archive .archive-nav .page-numbers, .archive .archive-nav .item .quantity .page-numbers, .item .quantity .btn {
+        font-size: 1em; } }
+    @media (max-width: 480px) {
+      .item .quantity .owl-carousel .owl-item .info .btn, .owl-carousel .owl-item .info .item .quantity .btn, .item .quantity .archive .archive-nav .page-numbers, .archive .archive-nav .item .quantity .page-numbers, .item .quantity .btn {
+        font-size: 1.16667em; } }
+    .item .quantity .archive .archive-nav .page-numbers:hover, .archive .archive-nav .item .quantity .page-numbers:hover, .item .quantity .btn:hover {
+      color: #e84c28;
+      border-color: #e84c28; }
+
+.divider {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 1px;
+  margin: 1rem 0;
+  background-color: #eceeef; }
+
+@media all and (max-width: 480px) {
+  .price {
+    width: 100% !important; }
+
+  form {
+    width: 100% !important; } }
+a:hover, .top-info .operating_time .dropdown-menu .dropdown-item .geo-link:hover, .top-info .operating_time .dropdown-menu .dropdown-item .phones:hover, .top-info .operating_time .dropdown-menu .btn:hover, .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers:hover, .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers:hover, .top-info .operating_time .time .nav .nav-item a:hover, .sorts .nav-item a:hover, .menu .menu-element ul li a:hover, .hot .nav a:hover, .about p > a:hover {
+  background-color: transparent; }
+a:focus, .top-info .operating_time .dropdown-menu .dropdown-item .geo-link:focus, .top-info .operating_time .dropdown-menu .dropdown-item .phones:focus, .top-info .operating_time .dropdown-menu .btn:focus, .top-info .operating_time .dropdown-menu .archive .archive-nav .page-numbers:focus, .archive .archive-nav .top-info .operating_time .dropdown-menu .page-numbers:focus, .top-info .operating_time .time .nav .nav-item a:focus, .sorts .nav-item a:focus, .menu .menu-element ul li a:focus, .hot .nav a:focus, .about p > a:focus {
+  background-color: transparent; }
+
+/*# sourceMappingURL=custom.css.map */
